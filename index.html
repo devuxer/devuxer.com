@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <meta http-equiv="last-modified" content="2013-12-16T00:57:58.6732695-08:00" />
+    <meta http-equiv="last-modified" content="2013-12-16T11:47:24.7863102-08:00" />
     <title>devuxer</title>
     <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
 </head>
@@ -149,14 +149,26 @@
 <li>Create a Disqus account, if necessary.</li>
 <li>Click "Add Disqus to Your Site".</li>
 <li>Follow the prompts until you get to a "Choose your platform" page, then stop.</li>
-<li>Open your blog's working directory, locate Snow_layouts\Post.cshtml, and replace <code>*disqus id*</code> with your site's Disqus shortname (e.g., devuxer).</li>
+<li>Locate post.cshtml in Snow\_layouts and replace <code>*disqus id*</code> with your site's Disqus shortname (e.g., devuxer).</li>
 <li>Commit changes.</li>
+</ul></li>
+<li>Set up Google Analytics and AddThis so you can obtain some some nice statistics on your blog:
+<ul>
+<li>Browse to <a href="http://www.google.com/analytics/">Google Analytics</a>.</li>
+<li>Create a new account pointing to your domain.</li>
+<li>Open default.cshtml in Snow\<em>layouts.</li>
+<li>Replace the <code>****</code> in <code>_gaq.push(['_setAccount', '****']);</code> with your Tracking ID.</li>
+<li>Add <code>@Html.RenderGoogleAnalytics("[your-tracking-id]")</code> below the <code>prettify</code> script element.</li>
+<li>Browse to <a href="http://www.addthis.com/">AddThis</a>.</li>
+<li>Create a new account.</li>
+<li>Open post.cshtml in Snow\</em>layouts.</li>
+<li>Replace the <code>****</code> in <code>#pubid=ra-****"</code> with the code provided under "Add to your site".</li>
 </ul></li>
 <li>Replace all the sample posts with what will become your first post:
 <ul>
 <li>Download <a href="http://markdownpad.com/">MarkdownPad</a>, if necessary.</li>
-<li>Go to your working directory and delete all but one of the posts in Snow_posts.</li>
-<li>Rename the file with the correct date and title.</li>
+<li>Delete all but one of the posts in Snow\_posts.</li>
+<li>Rename the remaining file with the correct date and title.</li>
 <li>Open the file in MarkdownPad and commence blogging!</li>
 <li>Run compile.snow.bat again to generate the site.</li>
 <li>Commit and sync to GitHub.</li>
@@ -237,6 +249,21 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src='/javascripts/prettify.js' type='text/javascript'></script>
     <!--script src='http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js' type='text/javascript'></script-->
+    <script type="text/javascript">
+var _gaq = _gaq || [];
+
+_gaq.push(['_setAccount', 'UA-46486876-1']);
+_gaq.push(['_trackPageview']);
+        
+(function () {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+})();
+</script>
     <script type='text/javascript'>
       $(function () {
         $("pre code").parent().each(function () {
@@ -250,7 +277,7 @@
       });
 
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '*********']);
+      _gaq.push(['_setAccount', 'UA-46486876-1']);
       _gaq.push(['_trackPageview']);
 
       (function() {
