@@ -83,17 +83,27 @@ That's when things started to get easier. (Not quite easy, but definitely easier
     * Create a Disqus account, if necessary.
     * Click "Add Disqus to Your Site".
     * Follow the prompts until you get to a "Choose your platform" page, then stop.
-    * Open your blog's working directory, locate Snow\_layouts\Post.cshtml, and replace `*disqus id*` with your site's Disqus shortname (e.g., devuxer).
+    * Locate post.cshtml in Snow\\_layouts and replace `*disqus id*` with your site's Disqus shortname (e.g., devuxer).
     * Commit changes.
-7. Replace all the sample posts with what will become your first post:
+7. Set up Google Analytics and AddThis so you can obtain some some nice statistics on your blog:
+    * Browse to [Google Analytics](http://www.google.com/analytics/).
+    * Create a new account pointing to your domain.
+    * Open default.cshtml in Snow\\_layouts.
+    * Replace the `****` in `_gaq.push(['_setAccount', '****']);` with your Tracking ID.
+    * Add `@Html.RenderGoogleAnalytics("[your-tracking-id]")` below the `prettify` script element.
+    * Browse to [AddThis](http://www.addthis.com/).
+    * Create a new account.
+    * Open post.cshtml in Snow\\_layouts.
+    * Replace the `****` in `#pubid=ra-****"` with the code provided under "Add to your site".
+8. Replace all the sample posts with what will become your first post:
     * Download [MarkdownPad](http://markdownpad.com/), if necessary.
-    * Go to your working directory and delete all but one of the posts in Snow\_posts.
-    * Rename the file with the correct date and title.
+    * Delete all but one of the posts in Snow\\_posts.
+    * Rename the remaining file with the correct date and title.
     * Open the file in MarkdownPad and commence blogging!
     * Run compile.snow.bat again to generate the site.
     * Commit and sync to GitHub.
     * Look for your updated blog to appear in 10 minutes or less.
-8. Do some things I haven't done yet:
+9. Do some things I haven't done yet:
     * Edit the theme to give your blog a unique look and feel.
     * Make sure people are actually able to leave a comment.
 
