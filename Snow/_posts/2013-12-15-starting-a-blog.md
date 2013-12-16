@@ -29,7 +29,7 @@ There were also decisions within decisions. For example, Namecheap offers [Whois
 
 Once I decided I wanted to host my blog on GitHub, I spent quite a bit of time reading about and fiddling with Github Pages, Jekyll, and Jekyll Bootstrap. I really liked the idea of writing my posts in markdown, then running some code that magically turns them into a blog, but I was getting bogged down in the details of how to actually set everything up. I also kept reading things like:
 
-> GitHub cannot afford to run arbitrary code on their servers so they lock developers down via Liquid. [Liquid is not programmer-friendly](http://jekyllbootstrap.com/usage/jekyll-quick-start.html).
+> GitHub cannot afford to run arbitrary code on their servers so they lock developers down via Liquid. [Liquid is not programmer-friendly](http://jekyllbootstrap.com/lessons/jekyll-introduction.html).
 
 At some point, not really expecting anything to come of it, I hopped on [JabbR](https://jabbr.net/) and said:
 
