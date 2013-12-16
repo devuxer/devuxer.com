@@ -78,9 +78,9 @@ That's when things started to get easier. (Not quite easy, but definitely easier
     * Set up your redirect to go from your domain to:
         * Record Type = A (Address)
         * IP Address/URL = 204.232.175.78
-        * TTL = 3259.
+        * TTL = 3259
 6. Set up [Disqus](http://disqus.com/) to handle your comments:
-    * Create a Disqus account, in necessary.
+    * Create a Disqus account, if necessary.
     * Click "Add Disqus to Your Site".
     * Follow the prompts until you get to a "Choose your platform" page, then stop.
     * Open your blog's working directory, locate Snow\_layouts\Post.cshtml, and replace `*disqus id*` with your site's Disqus shortname (e.g., devuxer).
@@ -100,4 +100,4 @@ That's when things started to get easier. (Not quite easy, but definitely easier
 
 #Conclusion#
 
-If you want a blog that's truly your own, it's going to take some work to set up. If your situation is similar to mine, hopefully, I've at least spared you some of the struggle. Regardless, once you get over the hump of setting things up, it will be smooth sailing. At least, that's the idea.
+If you want a blog that's truly your own, it's going to take some work to set up. If your situation is similar to mine, hopefully, I've at least spared you some of the struggle. Regardless, once you get over the hump of setting things up, it should be smooth sailing. At least, that's the idea.

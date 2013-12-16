@@ -99,12 +99,12 @@
 &lt;ul&gt;
 &lt;li&gt;Record Type = A (Address)&lt;/li&gt;
 &lt;li&gt;IP Address/URL = 204.232.175.78&lt;/li&gt;
-&lt;li&gt;TTL = 3259.&lt;/li&gt;
+&lt;li&gt;TTL = 3259&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Set up &lt;a href="http://disqus.com/"&gt;Disqus&lt;/a&gt; to handle your comments:
 &lt;ul&gt;
-&lt;li&gt;Create a Disqus account, in necessary.&lt;/li&gt;
+&lt;li&gt;Create a Disqus account, if necessary.&lt;/li&gt;
 &lt;li&gt;Click "Add Disqus to Your Site".&lt;/li&gt;
 &lt;li&gt;Follow the prompts until you get to a "Choose your platform" page, then stop.&lt;/li&gt;
 &lt;li&gt;Open your blog's working directory, locate Snow_layouts\Post.cshtml, and replace &lt;code&gt;*disqus id*&lt;/code&gt; with your site's Disqus shortname (e.g., devuxer).&lt;/li&gt;
@@ -129,7 +129,7 @@
 
 &lt;h1&gt;Conclusion&lt;/h1&gt;
 
-&lt;p&gt;If you want a blog that's truly your own, it's going to take some work to set up. If your situation is similar to mine, hopefully, I've at least spared you some of the struggle. Regardless, once you get over the hump of setting things up, it will be smooth sailing. At least, that's the idea.&lt;/p&gt;
+&lt;p&gt;If you want a blog that's truly your own, it's going to take some work to set up. If your situation is similar to mine, hopefully, I've at least spared you some of the struggle. Regardless, once you get over the hump of setting things up, it should be smooth sailing. At least, that's the idea.&lt;/p&gt;
 </description><pubDate>Sun, 15 Dec 2013 08:00:00 Z</pubDate><a10:updated>2013-12-15T08:00:00Z</a10:updated><a10:content type="text">&lt;p&gt;Welcome to my new blog. I've wanted to have a blog for a while, but I hesitated because I thought it would take a lot of effort to get started.&lt;/p&gt;
 
 &lt;p&gt;Now that I've done it, I can say, yep, it really was a pain!&lt;/p&gt;
@@ -231,12 +231,12 @@
 &lt;ul&gt;
 &lt;li&gt;Record Type = A (Address)&lt;/li&gt;
 &lt;li&gt;IP Address/URL = 204.232.175.78&lt;/li&gt;
-&lt;li&gt;TTL = 3259.&lt;/li&gt;
+&lt;li&gt;TTL = 3259&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Set up &lt;a href="http://disqus.com/"&gt;Disqus&lt;/a&gt; to handle your comments:
 &lt;ul&gt;
-&lt;li&gt;Create a Disqus account, in necessary.&lt;/li&gt;
+&lt;li&gt;Create a Disqus account, if necessary.&lt;/li&gt;
 &lt;li&gt;Click "Add Disqus to Your Site".&lt;/li&gt;
 &lt;li&gt;Follow the prompts until you get to a "Choose your platform" page, then stop.&lt;/li&gt;
 &lt;li&gt;Open your blog's working directory, locate Snow_layouts\Post.cshtml, and replace &lt;code&gt;*disqus id*&lt;/code&gt; with your site's Disqus shortname (e.g., devuxer).&lt;/li&gt;
@@ -261,5 +261,5 @@
 
 &lt;h1&gt;Conclusion&lt;/h1&gt;
 
-&lt;p&gt;If you want a blog that's truly your own, it's going to take some work to set up. If your situation is similar to mine, hopefully, I've at least spared you some of the struggle. Regardless, once you get over the hump of setting things up, it will be smooth sailing. At least, that's the idea.&lt;/p&gt;
+&lt;p&gt;If you want a blog that's truly your own, it's going to take some work to set up. If your situation is similar to mine, hopefully, I've at least spared you some of the struggle. Regardless, once you get over the hump of setting things up, it should be smooth sailing. At least, that's the idea.&lt;/p&gt;
 </a10:content></item></channel></rss>
