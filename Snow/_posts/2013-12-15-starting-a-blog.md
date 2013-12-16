@@ -14,7 +14,6 @@ There are three reasons creating this blog was hard:
 2. I wanted a solution that would give me full control over my content.
 3. I didn't want to pay for hosting.
 
-
 #Going from zero to blog in...many hours#
 
 I had to make a number of tough decisions along the way. Here are some of them:
@@ -24,7 +23,6 @@ I had to make a number of tough decisions along the way. Here are some of them:
 3. Who should be my web host? [GitHub](https://github.com/)
 4. How will I generate my blog? [Sandra Snow](https://github.com/Sandra/Sandra.Snow)
 
-
 There were also decisions within decisions. For example, Namecheap offers [WhoisGuard](http://www.whoisguard.com/) free for one year. The idea behind WhoisGuard is that it keeps your personal contact information hidden from anyone trying to find out who owns your domain. Apparently, some feel this type of thing makes it easier for [scammers to hide their identity](http://www.hostingdiscussion.com/domain-name-issues/10374-why-should-we-pay-whois-guard.html), however, not hiding it can result in spam. I left it deactivated for about three days. Then I got my first piece of spam relating to my domain. That was the end of my experiment with not using WhoisGuard.
 
 #Sandra Snow#
@@ -33,7 +31,7 @@ Once I decided I wanted to host my blog on GitHub, I spent quite a bit of time r
 
 > GitHub cannot afford to run arbitrary code on their servers so they lock developers down via Liquid. Liquid is not programmer-friendly.
 
-At some point, not really expecting anything to come of it, I hopped on JabbR and said:
+At some point, not really expecting anything to come of it, I hopped on [JabbR](https://jabbr.net/) and said:
 
 > YU so confusing, Jekyll?
 
