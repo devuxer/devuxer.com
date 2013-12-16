@@ -18,10 +18,10 @@ There are three reasons creating this blog was hard:
 
 I had to make a number of tough decisions along the way. Here are some of them:
 
-1. Domain: [devuxer.com](http://www.devuxer.com) 
-2. Domain registrar: [Namecheap](https://www.namecheap.com/)
-3. Web host: [GitHub](https://github.com/)
-4. Blog generator: [Sandra Snow](https://github.com/Sandra/Sandra.Snow)
+1. What should my domain be? [devuxer.com](http://www.devuxer.com) 
+2. Which domain registrar should I use? [Namecheap](https://www.namecheap.com/)
+3. Who should be my web host? [GitHub](https://github.com/)
+4. How will I generate my blog? [Sandra Snow](https://github.com/Sandra/Sandra.Snow)
 
 There were also decisions within decisions. For example, Namecheap offers [WhoisGuard](http://www.whoisguard.com/) free for one year. The idea behind WhoisGuard is that it keeps your personal contact information hidden from anyone trying to find out who owns your domain. Apparently, some feel this type of thing makes it easier for [scammers to hide their identity](http://www.hostingdiscussion.com/domain-name-issues/10374-why-should-we-pay-whois-guard.html), however, not hiding it can result in spam. I left it deactivated for about three days. Then I got my first piece of spam relating to my domain. That was the end of my experiment with not using WhoisGuard.
 
@@ -49,30 +49,30 @@ That's when things started to get easier. (Not quite easy, but definitely easier
         * Don't worry about a README (I didn't bother with it and nothing bad happened to me).
     * Go into the settings for the repository:
         * Click "Automatic Page Generator".
-        * Click "Continue to Layouts" (don't both editing the page).
+        * Click "Continue to Layouts" (don't bother editing the page).
         * Choose the MINIMAL layout (actually, it doesn't matter).
         * Click PUBLISH.
-    * You should not have a gh-pages branch.
-2. Haha I was just kidding:
+    * You should now have a gh-pages branch.
+2. "Haha, I was just kidding":
     * Install [GitHub for Windows](http://windows.github.com/), if necessary.
     * Go back to your browser and click "Clone In Desktop".
     * In Windows Explorer, delete everything except the .git folder from your working directory.
     * Commit changes.
 3. Replace all that stuff with the Sandra Snow Template:
-    * Bring up the [Sandra Snow Template](https://github.com/Sandra/Sandra.Snow.SnowTemplate) in your browser.
+    * Browse to the [Sandra Snow Template](https://github.com/Sandra/Sandra.Snow.SnowTemplate).
     * Click "Clone in Desktop".
     * In Windows Explorer, copy everything (except the .git folder) from the working directory of the template to the working directory of your blog.
     * Run compile.snow.bat to generate all the folders and files.
     * Commit changes.
 4. Replace anything that begins with "phill" with your own info:
-    * Files you will almost certainly need to edit:
+    * Files you will almost certainly want to edit:
         * Root directory: CNAME
         * Snow directory: about.cshtml, rss.xml, snow.config
         * Snow\_layouts directory: default.cshtml
     * Run compile.snow.bat again to generate the site.
     * Commit changes.
 5. Tell your domain registrar to redirect all web traffic to GitHub:
-    * Log into Namecheap (or a registrar of your choice).
+    * Log in to Namecheap (or whoever sold you your domain).
     * Navigate to the management screen for your domain.
     * Click URL Forwarding (or whatever your registrar calls it).
     * Set up your redirect to go from your domain to:

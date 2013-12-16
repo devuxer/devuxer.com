@@ -15,10 +15,10 @@
 &lt;p&gt;I had to make a number of tough decisions along the way. Here are some of them:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Domain: &lt;a href="http://www.devuxer.com"&gt;devuxer.com&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;Domain registrar: &lt;a href="https://www.namecheap.com/"&gt;Namecheap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Web host: &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Blog generator: &lt;a href="https://github.com/Sandra/Sandra.Snow"&gt;Sandra Snow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;What should my domain be? &lt;a href="http://www.devuxer.com"&gt;devuxer.com&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Which domain registrar should I use? &lt;a href="https://www.namecheap.com/"&gt;Namecheap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Who should be my web host? &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How will I generate my blog? &lt;a href="https://github.com/Sandra/Sandra.Snow"&gt;Sandra Snow&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;There were also decisions within decisions. For example, Namecheap offers &lt;a href="http://www.whoisguard.com/"&gt;WhoisGuard&lt;/a&gt; free for one year. The idea behind WhoisGuard is that it keeps your personal contact information hidden from anyone trying to find out who owns your domain. Apparently, some feel this type of thing makes it easier for &lt;a href="http://www.hostingdiscussion.com/domain-name-issues/10374-why-should-we-pay-whois-guard.html"&gt;scammers to hide their identity&lt;/a&gt;, however, not hiding it can result in spam. I left it deactivated for about three days. Then I got my first piece of spam relating to my domain. That was the end of my experiment with not using WhoisGuard.&lt;/p&gt;
@@ -58,13 +58,13 @@
 &lt;li&gt;Go into the settings for the repository:
 &lt;ul&gt;
 &lt;li&gt;Click "Automatic Page Generator".&lt;/li&gt;
-&lt;li&gt;Click "Continue to Layouts" (don't both editing the page).&lt;/li&gt;
+&lt;li&gt;Click "Continue to Layouts" (don't bother editing the page).&lt;/li&gt;
 &lt;li&gt;Choose the MINIMAL layout (actually, it doesn't matter).&lt;/li&gt;
 &lt;li&gt;Click PUBLISH.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;You should not have a gh-pages branch.&lt;/li&gt;
+&lt;li&gt;You should now have a gh-pages branch.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Haha I was just kidding:
+&lt;li&gt;"Haha, I was just kidding":
 &lt;ul&gt;
 &lt;li&gt;Install &lt;a href="http://windows.github.com/"&gt;GitHub for Windows&lt;/a&gt;, if necessary.&lt;/li&gt;
 &lt;li&gt;Go back to your browser and click "Clone In Desktop".&lt;/li&gt;
@@ -73,7 +73,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Replace all that stuff with the Sandra Snow Template:
 &lt;ul&gt;
-&lt;li&gt;Bring up the &lt;a href="https://github.com/Sandra/Sandra.Snow.SnowTemplate"&gt;Sandra Snow Template&lt;/a&gt; in your browser.&lt;/li&gt;
+&lt;li&gt;Browse to the &lt;a href="https://github.com/Sandra/Sandra.Snow.SnowTemplate"&gt;Sandra Snow Template&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Click "Clone in Desktop".&lt;/li&gt;
 &lt;li&gt;In Windows Explorer, copy everything (except the .git folder) from the working directory of the template to the working directory of your blog.&lt;/li&gt;
 &lt;li&gt;Run compile.snow.bat to generate all the folders and files.&lt;/li&gt;
@@ -81,7 +81,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Replace anything that begins with "phill" with your own info:
 &lt;ul&gt;
-&lt;li&gt;Files you will almost certainly need to edit:
+&lt;li&gt;Files you will almost certainly want to edit:
 &lt;ul&gt;
 &lt;li&gt;Root directory: CNAME&lt;/li&gt;
 &lt;li&gt;Snow directory: about.cshtml, rss.xml, snow.config&lt;/li&gt;
@@ -92,7 +92,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Tell your domain registrar to redirect all web traffic to GitHub:
 &lt;ul&gt;
-&lt;li&gt;Log into Namecheap (or a registrar of your choice).&lt;/li&gt;
+&lt;li&gt;Log in to Namecheap (or whoever sold you your domain).&lt;/li&gt;
 &lt;li&gt;Navigate to the management screen for your domain.&lt;/li&gt;
 &lt;li&gt;Click URL Forwarding (or whatever your registrar calls it).&lt;/li&gt;
 &lt;li&gt;Set up your redirect to go from your domain to:
@@ -147,10 +147,10 @@
 &lt;p&gt;I had to make a number of tough decisions along the way. Here are some of them:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Domain: &lt;a href="http://www.devuxer.com"&gt;devuxer.com&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;Domain registrar: &lt;a href="https://www.namecheap.com/"&gt;Namecheap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Web host: &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Blog generator: &lt;a href="https://github.com/Sandra/Sandra.Snow"&gt;Sandra Snow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;What should my domain be? &lt;a href="http://www.devuxer.com"&gt;devuxer.com&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Which domain registrar should I use? &lt;a href="https://www.namecheap.com/"&gt;Namecheap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Who should be my web host? &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How will I generate my blog? &lt;a href="https://github.com/Sandra/Sandra.Snow"&gt;Sandra Snow&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;There were also decisions within decisions. For example, Namecheap offers &lt;a href="http://www.whoisguard.com/"&gt;WhoisGuard&lt;/a&gt; free for one year. The idea behind WhoisGuard is that it keeps your personal contact information hidden from anyone trying to find out who owns your domain. Apparently, some feel this type of thing makes it easier for &lt;a href="http://www.hostingdiscussion.com/domain-name-issues/10374-why-should-we-pay-whois-guard.html"&gt;scammers to hide their identity&lt;/a&gt;, however, not hiding it can result in spam. I left it deactivated for about three days. Then I got my first piece of spam relating to my domain. That was the end of my experiment with not using WhoisGuard.&lt;/p&gt;
@@ -190,13 +190,13 @@
 &lt;li&gt;Go into the settings for the repository:
 &lt;ul&gt;
 &lt;li&gt;Click "Automatic Page Generator".&lt;/li&gt;
-&lt;li&gt;Click "Continue to Layouts" (don't both editing the page).&lt;/li&gt;
+&lt;li&gt;Click "Continue to Layouts" (don't bother editing the page).&lt;/li&gt;
 &lt;li&gt;Choose the MINIMAL layout (actually, it doesn't matter).&lt;/li&gt;
 &lt;li&gt;Click PUBLISH.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;You should not have a gh-pages branch.&lt;/li&gt;
+&lt;li&gt;You should now have a gh-pages branch.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Haha I was just kidding:
+&lt;li&gt;"Haha, I was just kidding":
 &lt;ul&gt;
 &lt;li&gt;Install &lt;a href="http://windows.github.com/"&gt;GitHub for Windows&lt;/a&gt;, if necessary.&lt;/li&gt;
 &lt;li&gt;Go back to your browser and click "Clone In Desktop".&lt;/li&gt;
@@ -205,7 +205,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Replace all that stuff with the Sandra Snow Template:
 &lt;ul&gt;
-&lt;li&gt;Bring up the &lt;a href="https://github.com/Sandra/Sandra.Snow.SnowTemplate"&gt;Sandra Snow Template&lt;/a&gt; in your browser.&lt;/li&gt;
+&lt;li&gt;Browse to the &lt;a href="https://github.com/Sandra/Sandra.Snow.SnowTemplate"&gt;Sandra Snow Template&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Click "Clone in Desktop".&lt;/li&gt;
 &lt;li&gt;In Windows Explorer, copy everything (except the .git folder) from the working directory of the template to the working directory of your blog.&lt;/li&gt;
 &lt;li&gt;Run compile.snow.bat to generate all the folders and files.&lt;/li&gt;
@@ -213,7 +213,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Replace anything that begins with "phill" with your own info:
 &lt;ul&gt;
-&lt;li&gt;Files you will almost certainly need to edit:
+&lt;li&gt;Files you will almost certainly want to edit:
 &lt;ul&gt;
 &lt;li&gt;Root directory: CNAME&lt;/li&gt;
 &lt;li&gt;Snow directory: about.cshtml, rss.xml, snow.config&lt;/li&gt;
@@ -224,7 +224,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Tell your domain registrar to redirect all web traffic to GitHub:
 &lt;ul&gt;
-&lt;li&gt;Log into Namecheap (or a registrar of your choice).&lt;/li&gt;
+&lt;li&gt;Log in to Namecheap (or whoever sold you your domain).&lt;/li&gt;
 &lt;li&gt;Navigate to the management screen for your domain.&lt;/li&gt;
 &lt;li&gt;Click URL Forwarding (or whatever your registrar calls it).&lt;/li&gt;
 &lt;li&gt;Set up your redirect to go from your domain to:
