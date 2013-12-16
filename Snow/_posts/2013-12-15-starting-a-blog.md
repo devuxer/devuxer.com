@@ -41,7 +41,7 @@ Phillip Haydon responded:
 
 That's when things started to get easier. (Not quite easy, but definitely easier.) Rather than a Ruby solution like Jekyll, Sandra.Snow is a .NET solution. If I needed to debug anything (I did), I already had all the tools and at least some of the know-how. And instead of the dreaded Liquid, I would get to use good ol' Razor templates.
 
-#Here's a Snow step-by-step#
+#A Snow step-by-step#
 
 1. Pretend you are going to use GitHub Pages:
     * Create a new repository in GitHub called your-domain (e.g., devuxer.com).
