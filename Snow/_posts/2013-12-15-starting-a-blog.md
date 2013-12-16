@@ -52,6 +52,7 @@ That's when things started to get easier. (Not quite easy, but definitely easier
         * Click "Continue to Layouts" (don't both editing the page).
         * Choose the MINIMAL layout (actually, it doesn't matter).
         * Click PUBLISH.
+    * You should not have a gh-pages branch.
 2. Haha I was just kidding:
     * Install [GitHub for Windows](http://windows.github.com/), if necessary.
     * Go back to your browser and click "Clone In Desktop".
