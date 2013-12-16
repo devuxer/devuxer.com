@@ -1,151 +1,265 @@
-<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0"><channel><title /><link>http://www.devuxer.com/feed.xml</link><description /><item><guid isPermaLink="true">http://www.devuxer.com/2013/08/test-post-twelve/</guid><link>http://www.devuxer.com/2013/08/test-post-twelve/</link><title>Love the new ReSharper 8, best update to date!</title><description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-</description><pubDate>Sat, 03 Aug 2013 07:00:00 Z</pubDate><a10:updated>2013-08-03T07:00:00Z</a10:updated><a10:content type="text">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-&lt;!--excerpt--&gt;
-
-&lt;p&gt;Donec sodales enim ultricies magna facilisis sodales. Cras suscipit massa ac nisi mattis, a sodales orci tincidunt. Vivamus non nulla gravida, dignissim justo eu, rhoncus augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed enim ante, vulputate eu blandit non, dictum a urna. Sed non mi nec arcu porttitor molestie. Donec vitae interdum lacus. Morbi a tempor metus, dictum imperdiet eros. Mauris ullamcorper neque et facilisis euismod. Vestibulum vitae dictum urna, ac condimentum nunc. Quisque in sagittis sapien. Sed venenatis nisi erat, in tristique felis vestibulum id.&lt;/p&gt;
-
-&lt;p&gt;Nullam consequat suscipit dictum. Quisque blandit blandit nunc quis tristique. Duis feugiat sem eu sapien iaculis, vel varius odio faucibus. Aliquam mattis pellentesque placerat. Phasellus tristique felis libero, in aliquet mi facilisis non. Maecenas vel dignissim ipsum. Integer dignissim nisl in sodales tempor. Aliquam erat volutpat. Nulla lobortis lorem at justo pellentesque, a elementum massa ornare. Nam risus felis, aliquet a dui eget, molestie varius turpis. Pellentesque interdum vitae nisi ut tempor.&lt;/p&gt;
-
-&lt;p&gt;Fusce rhoncus purus at justo viverra venenatis. Curabitur quis nisi pulvinar, varius felis non, volutpat odio. Etiam sed condimentum velit, a dapibus odio. Vivamus gravida eleifend ligula, quis feugiat metus sagittis non. Donec consectetur commodo porta. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris adipiscing velit et tempor vestibulum. Vivamus tincidunt, sapien et sagittis commodo, enim purus malesuada sem, id pretium nibh purus in arcu. Aliquam euismod erat dui, nec imperdiet erat condimentum at. Integer vel lorem congue, dictum nulla vitae, sodales eros. Praesent ultrices leo id egestas rutrum. Nunc fringilla tortor mi, non ultricies enim tempor id. In nulla neque, rutrum at libero id, aliquam varius mauris. Maecenas arcu lorem, dapibus quis mi ut, viverra semper risus. Curabitur purus sapien, posuere sed purus id, pretium hendrerit lacus. Nam et ipsum nisi.&lt;/p&gt;
-</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2013/07/test-post-eleven/</guid><link>http://www.devuxer.com/2013/07/test-post-eleven/</link><title>Setting up a ServiceStack Service</title><description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-</description><pubDate>Mon, 15 Jul 2013 07:00:00 Z</pubDate><a10:updated>2013-07-15T07:00:00Z</a10:updated><a10:content type="text">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-&lt;!--excerpt--&gt;
-
-&lt;p&gt;Donec sodales enim ultricies magna facilisis sodales. Cras suscipit massa ac nisi mattis, a sodales orci tincidunt. Vivamus non nulla gravida, dignissim justo eu, rhoncus augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed enim ante, vulputate eu blandit non, dictum a urna. Sed non mi nec arcu porttitor molestie. Donec vitae interdum lacus. Morbi a tempor metus, dictum imperdiet eros. Mauris ullamcorper neque et facilisis euismod. Vestibulum vitae dictum urna, ac condimentum nunc. Quisque in sagittis sapien. Sed venenatis nisi erat, in tristique felis vestibulum id.&lt;/p&gt;
-
-&lt;p&gt;Nullam consequat suscipit dictum. Quisque blandit blandit nunc quis tristique. Duis feugiat sem eu sapien iaculis, vel varius odio faucibus. Aliquam mattis pellentesque placerat. Phasellus tristique felis libero, in aliquet mi facilisis non. Maecenas vel dignissim ipsum. Integer dignissim nisl in sodales tempor. Aliquam erat volutpat. Nulla lobortis lorem at justo pellentesque, a elementum massa ornare. Nam risus felis, aliquet a dui eget, molestie varius turpis. Pellentesque interdum vitae nisi ut tempor.&lt;/p&gt;
-
-&lt;p&gt;Fusce rhoncus purus at justo viverra venenatis. Curabitur quis nisi pulvinar, varius felis non, volutpat odio. Etiam sed condimentum velit, a dapibus odio. Vivamus gravida eleifend ligula, quis feugiat metus sagittis non. Donec consectetur commodo porta. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris adipiscing velit et tempor vestibulum. Vivamus tincidunt, sapien et sagittis commodo, enim purus malesuada sem, id pretium nibh purus in arcu. Aliquam euismod erat dui, nec imperdiet erat condimentum at. Integer vel lorem congue, dictum nulla vitae, sodales eros. Praesent ultrices leo id egestas rutrum. Nunc fringilla tortor mi, non ultricies enim tempor id. In nulla neque, rutrum at libero id, aliquam varius mauris. Maecenas arcu lorem, dapibus quis mi ut, viverra semper risus. Curabitur purus sapien, posuere sed purus id, pretium hendrerit lacus. Nam et ipsum nisi.&lt;/p&gt;
-</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2013/07/test-post-ten/</guid><link>http://www.devuxer.com/2013/07/test-post-ten/</link><title>Setting up a NancyFX website</title><description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-</description><pubDate>Thu, 04 Jul 2013 07:00:00 Z</pubDate><a10:updated>2013-07-04T07:00:00Z</a10:updated><a10:content type="text">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-&lt;!--excerpt--&gt;
-
-&lt;p&gt;Donec sodales enim ultricies magna facilisis sodales. Cras suscipit massa ac nisi mattis, a sodales orci tincidunt. Vivamus non nulla gravida, dignissim justo eu, rhoncus augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed enim ante, vulputate eu blandit non, dictum a urna. Sed non mi nec arcu porttitor molestie. Donec vitae interdum lacus. Morbi a tempor metus, dictum imperdiet eros. Mauris ullamcorper neque et facilisis euismod. Vestibulum vitae dictum urna, ac condimentum nunc. Quisque in sagittis sapien. Sed venenatis nisi erat, in tristique felis vestibulum id.&lt;/p&gt;
-
-&lt;p&gt;Nullam consequat suscipit dictum. Quisque blandit blandit nunc quis tristique. Duis feugiat sem eu sapien iaculis, vel varius odio faucibus. Aliquam mattis pellentesque placerat. Phasellus tristique felis libero, in aliquet mi facilisis non. Maecenas vel dignissim ipsum. Integer dignissim nisl in sodales tempor. Aliquam erat volutpat. Nulla lobortis lorem at justo pellentesque, a elementum massa ornare. Nam risus felis, aliquet a dui eget, molestie varius turpis. Pellentesque interdum vitae nisi ut tempor.&lt;/p&gt;
-
-&lt;p&gt;Fusce rhoncus purus at justo viverra venenatis. Curabitur quis nisi pulvinar, varius felis non, volutpat odio. Etiam sed condimentum velit, a dapibus odio. Vivamus gravida eleifend ligula, quis feugiat metus sagittis non. Donec consectetur commodo porta. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris adipiscing velit et tempor vestibulum. Vivamus tincidunt, sapien et sagittis commodo, enim purus malesuada sem, id pretium nibh purus in arcu. Aliquam euismod erat dui, nec imperdiet erat condimentum at. Integer vel lorem congue, dictum nulla vitae, sodales eros. Praesent ultrices leo id egestas rutrum. Nunc fringilla tortor mi, non ultricies enim tempor id. In nulla neque, rutrum at libero id, aliquam varius mauris. Maecenas arcu lorem, dapibus quis mi ut, viverra semper risus. Curabitur purus sapien, posuere sed purus id, pretium hendrerit lacus. Nam et ipsum nisi.&lt;/p&gt;
-</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2013/06/test-post-nine/</guid><link>http://www.devuxer.com/2013/06/test-post-nine/</link><title>Setting up Mono on nginx</title><description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-</description><pubDate>Fri, 28 Jun 2013 07:00:00 Z</pubDate><a10:updated>2013-06-28T07:00:00Z</a10:updated><a10:content type="text">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-&lt;!--excerpt--&gt;
-
-&lt;p&gt;Donec sodales enim ultricies magna facilisis sodales. Cras suscipit massa ac nisi mattis, a sodales orci tincidunt. Vivamus non nulla gravida, dignissim justo eu, rhoncus augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed enim ante, vulputate eu blandit non, dictum a urna. Sed non mi nec arcu porttitor molestie. Donec vitae interdum lacus. Morbi a tempor metus, dictum imperdiet eros. Mauris ullamcorper neque et facilisis euismod. Vestibulum vitae dictum urna, ac condimentum nunc. Quisque in sagittis sapien. Sed venenatis nisi erat, in tristique felis vestibulum id.&lt;/p&gt;
-
-&lt;p&gt;Nullam consequat suscipit dictum. Quisque blandit blandit nunc quis tristique. Duis feugiat sem eu sapien iaculis, vel varius odio faucibus. Aliquam mattis pellentesque placerat. Phasellus tristique felis libero, in aliquet mi facilisis non. Maecenas vel dignissim ipsum. Integer dignissim nisl in sodales tempor. Aliquam erat volutpat. Nulla lobortis lorem at justo pellentesque, a elementum massa ornare. Nam risus felis, aliquet a dui eget, molestie varius turpis. Pellentesque interdum vitae nisi ut tempor.&lt;/p&gt;
-
-&lt;p&gt;Fusce rhoncus purus at justo viverra venenatis. Curabitur quis nisi pulvinar, varius felis non, volutpat odio. Etiam sed condimentum velit, a dapibus odio. Vivamus gravida eleifend ligula, quis feugiat metus sagittis non. Donec consectetur commodo porta. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris adipiscing velit et tempor vestibulum. Vivamus tincidunt, sapien et sagittis commodo, enim purus malesuada sem, id pretium nibh purus in arcu. Aliquam euismod erat dui, nec imperdiet erat condimentum at. Integer vel lorem congue, dictum nulla vitae, sodales eros. Praesent ultrices leo id egestas rutrum. Nunc fringilla tortor mi, non ultricies enim tempor id. In nulla neque, rutrum at libero id, aliquam varius mauris. Maecenas arcu lorem, dapibus quis mi ut, viverra semper risus. Curabitur purus sapien, posuere sed purus id, pretium hendrerit lacus. Nam et ipsum nisi.&lt;/p&gt;
-</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2013/06/test-post-eight/</guid><link>http://www.devuxer.com/2013/06/test-post-eight/</link><title>Setting up new Website and Domain on nginx</title><description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-</description><pubDate>Thu, 27 Jun 2013 07:00:00 Z</pubDate><a10:updated>2013-06-27T07:00:00Z</a10:updated><a10:content type="text">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-&lt;!--excerpt--&gt;
-
-&lt;p&gt;Donec sodales enim ultricies magna facilisis sodales. Cras suscipit massa ac nisi mattis, a sodales orci tincidunt. Vivamus non nulla gravida, dignissim justo eu, rhoncus augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed enim ante, vulputate eu blandit non, dictum a urna. Sed non mi nec arcu porttitor molestie. Donec vitae interdum lacus. Morbi a tempor metus, dictum imperdiet eros. Mauris ullamcorper neque et facilisis euismod. Vestibulum vitae dictum urna, ac condimentum nunc. Quisque in sagittis sapien. Sed venenatis nisi erat, in tristique felis vestibulum id.&lt;/p&gt;
-
-&lt;p&gt;Nullam consequat suscipit dictum. Quisque blandit blandit nunc quis tristique. Duis feugiat sem eu sapien iaculis, vel varius odio faucibus. Aliquam mattis pellentesque placerat. Phasellus tristique felis libero, in aliquet mi facilisis non. Maecenas vel dignissim ipsum. Integer dignissim nisl in sodales tempor. Aliquam erat volutpat. Nulla lobortis lorem at justo pellentesque, a elementum massa ornare. Nam risus felis, aliquet a dui eget, molestie varius turpis. Pellentesque interdum vitae nisi ut tempor.&lt;/p&gt;
-
-&lt;p&gt;Fusce rhoncus purus at justo viverra venenatis. Curabitur quis nisi pulvinar, varius felis non, volutpat odio. Etiam sed condimentum velit, a dapibus odio. Vivamus gravida eleifend ligula, quis feugiat metus sagittis non. Donec consectetur commodo porta. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris adipiscing velit et tempor vestibulum. Vivamus tincidunt, sapien et sagittis commodo, enim purus malesuada sem, id pretium nibh purus in arcu. Aliquam euismod erat dui, nec imperdiet erat condimentum at. Integer vel lorem congue, dictum nulla vitae, sodales eros. Praesent ultrices leo id egestas rutrum. Nunc fringilla tortor mi, non ultricies enim tempor id. In nulla neque, rutrum at libero id, aliquam varius mauris. Maecenas arcu lorem, dapibus quis mi ut, viverra semper risus. Curabitur purus sapien, posuere sed purus id, pretium hendrerit lacus. Nam et ipsum nisi.&lt;/p&gt;
-</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2013/06/test-post-seven/</guid><link>http://www.devuxer.com/2013/06/test-post-seven/</link><title>Setting up Ubuntu and nginx on Azure</title><description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-</description><pubDate>Wed, 26 Jun 2013 07:00:00 Z</pubDate><a10:updated>2013-06-26T07:00:00Z</a10:updated><a10:content type="text">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-&lt;!--excerpt--&gt;
-
-&lt;p&gt;Donec sodales enim ultricies magna facilisis sodales. Cras suscipit massa ac nisi mattis, a sodales orci tincidunt. Vivamus non nulla gravida, dignissim justo eu, rhoncus augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed enim ante, vulputate eu blandit non, dictum a urna. Sed non mi nec arcu porttitor molestie. Donec vitae interdum lacus. Morbi a tempor metus, dictum imperdiet eros. Mauris ullamcorper neque et facilisis euismod. Vestibulum vitae dictum urna, ac condimentum nunc. Quisque in sagittis sapien. Sed venenatis nisi erat, in tristique felis vestibulum id.&lt;/p&gt;
-
-&lt;p&gt;Nullam consequat suscipit dictum. Quisque blandit blandit nunc quis tristique. Duis feugiat sem eu sapien iaculis, vel varius odio faucibus. Aliquam mattis pellentesque placerat. Phasellus tristique felis libero, in aliquet mi facilisis non. Maecenas vel dignissim ipsum. Integer dignissim nisl in sodales tempor. Aliquam erat volutpat. Nulla lobortis lorem at justo pellentesque, a elementum massa ornare. Nam risus felis, aliquet a dui eget, molestie varius turpis. Pellentesque interdum vitae nisi ut tempor.&lt;/p&gt;
-
-&lt;p&gt;Fusce rhoncus purus at justo viverra venenatis. Curabitur quis nisi pulvinar, varius felis non, volutpat odio. Etiam sed condimentum velit, a dapibus odio. Vivamus gravida eleifend ligula, quis feugiat metus sagittis non. Donec consectetur commodo porta. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris adipiscing velit et tempor vestibulum. Vivamus tincidunt, sapien et sagittis commodo, enim purus malesuada sem, id pretium nibh purus in arcu. Aliquam euismod erat dui, nec imperdiet erat condimentum at. Integer vel lorem congue, dictum nulla vitae, sodales eros. Praesent ultrices leo id egestas rutrum. Nunc fringilla tortor mi, non ultricies enim tempor id. In nulla neque, rutrum at libero id, aliquam varius mauris. Maecenas arcu lorem, dapibus quis mi ut, viverra semper risus. Curabitur purus sapien, posuere sed purus id, pretium hendrerit lacus. Nam et ipsum nisi.&lt;/p&gt;
-</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2013/06/test-post-six/</guid><link>http://www.devuxer.com/2013/06/test-post-six/</link><title>Making NuGet a little easier to use with an Alias</title><description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-</description><pubDate>Fri, 21 Jun 2013 07:00:00 Z</pubDate><a10:updated>2013-06-21T07:00:00Z</a10:updated><a10:content type="text">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-&lt;!--excerpt--&gt;
-
-&lt;p&gt;Donec sodales enim ultricies magna facilisis sodales. Cras suscipit massa ac nisi mattis, a sodales orci tincidunt. Vivamus non nulla gravida, dignissim justo eu, rhoncus augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed enim ante, vulputate eu blandit non, dictum a urna. Sed non mi nec arcu porttitor molestie. Donec vitae interdum lacus. Morbi a tempor metus, dictum imperdiet eros. Mauris ullamcorper neque et facilisis euismod. Vestibulum vitae dictum urna, ac condimentum nunc. Quisque in sagittis sapien. Sed venenatis nisi erat, in tristique felis vestibulum id.&lt;/p&gt;
-
-&lt;p&gt;Nullam consequat suscipit dictum. Quisque blandit blandit nunc quis tristique. Duis feugiat sem eu sapien iaculis, vel varius odio faucibus. Aliquam mattis pellentesque placerat. Phasellus tristique felis libero, in aliquet mi facilisis non. Maecenas vel dignissim ipsum. Integer dignissim nisl in sodales tempor. Aliquam erat volutpat. Nulla lobortis lorem at justo pellentesque, a elementum massa ornare. Nam risus felis, aliquet a dui eget, molestie varius turpis. Pellentesque interdum vitae nisi ut tempor.&lt;/p&gt;
-
-&lt;p&gt;Fusce rhoncus purus at justo viverra venenatis. Curabitur quis nisi pulvinar, varius felis non, volutpat odio. Etiam sed condimentum velit, a dapibus odio. Vivamus gravida eleifend ligula, quis feugiat metus sagittis non. Donec consectetur commodo porta. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris adipiscing velit et tempor vestibulum. Vivamus tincidunt, sapien et sagittis commodo, enim purus malesuada sem, id pretium nibh purus in arcu. Aliquam euismod erat dui, nec imperdiet erat condimentum at. Integer vel lorem congue, dictum nulla vitae, sodales eros. Praesent ultrices leo id egestas rutrum. Nunc fringilla tortor mi, non ultricies enim tempor id. In nulla neque, rutrum at libero id, aliquam varius mauris. Maecenas arcu lorem, dapibus quis mi ut, viverra semper risus. Curabitur purus sapien, posuere sed purus id, pretium hendrerit lacus. Nam et ipsum nisi.&lt;/p&gt;
-</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2013/05/test-post-five/</guid><link>http://www.devuxer.com/2013/05/test-post-five/</link><title>NancyFX - Hosting with OWIN</title><description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-</description><pubDate>Wed, 29 May 2013 07:00:00 Z</pubDate><a10:updated>2013-05-29T07:00:00Z</a10:updated><a10:content type="text">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-&lt;!--excerpt--&gt;
-
-&lt;p&gt;Donec sodales enim ultricies magna facilisis sodales. Cras suscipit massa ac nisi mattis, a sodales orci tincidunt. Vivamus non nulla gravida, dignissim justo eu, rhoncus augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed enim ante, vulputate eu blandit non, dictum a urna. Sed non mi nec arcu porttitor molestie. Donec vitae interdum lacus. Morbi a tempor metus, dictum imperdiet eros. Mauris ullamcorper neque et facilisis euismod. Vestibulum vitae dictum urna, ac condimentum nunc. Quisque in sagittis sapien. Sed venenatis nisi erat, in tristique felis vestibulum id.&lt;/p&gt;
-
-&lt;p&gt;Nullam consequat suscipit dictum. Quisque blandit blandit nunc quis tristique. Duis feugiat sem eu sapien iaculis, vel varius odio faucibus. Aliquam mattis pellentesque placerat. Phasellus tristique felis libero, in aliquet mi facilisis non. Maecenas vel dignissim ipsum. Integer dignissim nisl in sodales tempor. Aliquam erat volutpat. Nulla lobortis lorem at justo pellentesque, a elementum massa ornare. Nam risus felis, aliquet a dui eget, molestie varius turpis. Pellentesque interdum vitae nisi ut tempor.&lt;/p&gt;
-
-&lt;p&gt;Fusce rhoncus purus at justo viverra venenatis. Curabitur quis nisi pulvinar, varius felis non, volutpat odio. Etiam sed condimentum velit, a dapibus odio. Vivamus gravida eleifend ligula, quis feugiat metus sagittis non. Donec consectetur commodo porta. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris adipiscing velit et tempor vestibulum. Vivamus tincidunt, sapien et sagittis commodo, enim purus malesuada sem, id pretium nibh purus in arcu. Aliquam euismod erat dui, nec imperdiet erat condimentum at. Integer vel lorem congue, dictum nulla vitae, sodales eros. Praesent ultrices leo id egestas rutrum. Nunc fringilla tortor mi, non ultricies enim tempor id. In nulla neque, rutrum at libero id, aliquam varius mauris. Maecenas arcu lorem, dapibus quis mi ut, viverra semper risus. Curabitur purus sapien, posuere sed purus id, pretium hendrerit lacus. Nam et ipsum nisi.&lt;/p&gt;
-</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2013/05/test-post-four/</guid><link>http://www.devuxer.com/2013/05/test-post-four/</link><title>NancyFX - Revisiting Content Negotiation &amp; APIs (Part 3)</title><description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-</description><pubDate>Sat, 18 May 2013 07:00:00 Z</pubDate><a10:updated>2013-05-18T07:00:00Z</a10:updated><a10:content type="text">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-&lt;!--excerpt--&gt;
-
-&lt;p&gt;Donec sodales enim ultricies magna facilisis sodales. Cras suscipit massa ac nisi mattis, a sodales orci tincidunt. Vivamus non nulla gravida, dignissim justo eu, rhoncus augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed enim ante, vulputate eu blandit non, dictum a urna. Sed non mi nec arcu porttitor molestie. Donec vitae interdum lacus. Morbi a tempor metus, dictum imperdiet eros. Mauris ullamcorper neque et facilisis euismod. Vestibulum vitae dictum urna, ac condimentum nunc. Quisque in sagittis sapien. Sed venenatis nisi erat, in tristique felis vestibulum id.&lt;/p&gt;
-
-&lt;p&gt;Nullam consequat suscipit dictum. Quisque blandit blandit nunc quis tristique. Duis feugiat sem eu sapien iaculis, vel varius odio faucibus. Aliquam mattis pellentesque placerat. Phasellus tristique felis libero, in aliquet mi facilisis non. Maecenas vel dignissim ipsum. Integer dignissim nisl in sodales tempor. Aliquam erat volutpat. Nulla lobortis lorem at justo pellentesque, a elementum massa ornare. Nam risus felis, aliquet a dui eget, molestie varius turpis. Pellentesque interdum vitae nisi ut tempor.&lt;/p&gt;
-
-&lt;p&gt;Fusce rhoncus purus at justo viverra venenatis. Curabitur quis nisi pulvinar, varius felis non, volutpat odio. Etiam sed condimentum velit, a dapibus odio. Vivamus gravida eleifend ligula, quis feugiat metus sagittis non. Donec consectetur commodo porta. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris adipiscing velit et tempor vestibulum. Vivamus tincidunt, sapien et sagittis commodo, enim purus malesuada sem, id pretium nibh purus in arcu. Aliquam euismod erat dui, nec imperdiet erat condimentum at. Integer vel lorem congue, dictum nulla vitae, sodales eros. Praesent ultrices leo id egestas rutrum. Nunc fringilla tortor mi, non ultricies enim tempor id. In nulla neque, rutrum at libero id, aliquam varius mauris. Maecenas arcu lorem, dapibus quis mi ut, viverra semper risus. Curabitur purus sapien, posuere sed purus id, pretium hendrerit lacus. Nam et ipsum nisi.&lt;/p&gt;
-</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2013/03/test-post-three/</guid><link>http://www.devuxer.com/2013/03/test-post-three/</link><title>Setup my first Azure Virtual Machine!</title><description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-</description><pubDate>Fri, 01 Mar 2013 08:00:00 Z</pubDate><a10:updated>2013-03-01T08:00:00Z</a10:updated><a10:content type="text">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ligula tortor, interdum sit amet mattis vel, aliquet vitae sapien. Sed fermentum, massa ac aliquet ornare, arcu sem imperdiet libero, eget mattis urna sem in risus. Phasellus vehicula interdum ornare. Duis pellentesque, ante fringilla mattis fringilla, leo ligula imperdiet nisi, vitae tincidunt nisl urna vitae metus. Fusce quis malesuada urna, vitae ultricies nunc. Nullam lectus elit, sollicitudin ac imperdiet sit amet, dignissim at lorem. Mauris luctus erat dui, non suscipit est convallis quis. Praesent dictum velit sit amet feugiat elementum.&lt;/p&gt;
-
-&lt;p&gt;Quisque semper vitae nisl ac viverra. Etiam fermentum turpis sit amet ornare malesuada. Aliquam lectus velit, aliquam quis adipiscing eu, tristique vel dolor. Nam dui lorem, tempor eget nisi ut, rhoncus dignissim felis. Aliquam sodales enim et dictum placerat. Sed nisl nisi, tempus quis erat gravida, euismod scelerisque massa. Ut adipiscing arcu felis, in ornare quam tincidunt vitae. Suspendisse id augue sed purus hendrerit mattis id faucibus felis. Curabitur ornare sem sed nibh varius porta. Etiam imperdiet augue et nulla consectetur, ut placerat sapien mattis. Mauris consectetur, lectus a tempor tincidunt, eros mauris sagittis lorem, at vulputate libero nibh id risus. Cras vitae consequat leo. Cras ut lacus eget dui posuere vestibulum. Vivamus vel cursus ipsum, id accumsan erat. Integer posuere mauris mauris, ut iaculis ante luctus in. Mauris eget leo sit amet metus iaculis elementum ut id tortor.&lt;/p&gt;
-
-&lt;!--excerpt--&gt;
-
-&lt;p&gt;Donec sodales enim ultricies magna facilisis sodales. Cras suscipit massa ac nisi mattis, a sodales orci tincidunt. Vivamus non nulla gravida, dignissim justo eu, rhoncus augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed enim ante, vulputate eu blandit non, dictum a urna. Sed non mi nec arcu porttitor molestie. Donec vitae interdum lacus. Morbi a tempor metus, dictum imperdiet eros. Mauris ullamcorper neque et facilisis euismod. Vestibulum vitae dictum urna, ac condimentum nunc. Quisque in sagittis sapien. Sed venenatis nisi erat, in tristique felis vestibulum id.&lt;/p&gt;
-
-&lt;p&gt;Nullam consequat suscipit dictum. Quisque blandit blandit nunc quis tristique. Duis feugiat sem eu sapien iaculis, vel varius odio faucibus. Aliquam mattis pellentesque placerat. Phasellus tristique felis libero, in aliquet mi facilisis non. Maecenas vel dignissim ipsum. Integer dignissim nisl in sodales tempor. Aliquam erat volutpat. Nulla lobortis lorem at justo pellentesque, a elementum massa ornare. Nam risus felis, aliquet a dui eget, molestie varius turpis. Pellentesque interdum vitae nisi ut tempor.&lt;/p&gt;
-
-&lt;p&gt;Fusce rhoncus purus at justo viverra venenatis. Curabitur quis nisi pulvinar, varius felis non, volutpat odio. Etiam sed condimentum velit, a dapibus odio. Vivamus gravida eleifend ligula, quis feugiat metus sagittis non. Donec consectetur commodo porta. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris adipiscing velit et tempor vestibulum. Vivamus tincidunt, sapien et sagittis commodo, enim purus malesuada sem, id pretium nibh purus in arcu. Aliquam euismod erat dui, nec imperdiet erat condimentum at. Integer vel lorem congue, dictum nulla vitae, sodales eros. Praesent ultrices leo id egestas rutrum. Nunc fringilla tortor mi, non ultricies enim tempor id. In nulla neque, rutrum at libero id, aliquam varius mauris. Maecenas arcu lorem, dapibus quis mi ut, viverra semper risus. Curabitur purus sapien, posuere sed purus id, pretium hendrerit lacus. Nam et ipsum nisi.&lt;/p&gt;
+<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0"><channel><title /><link>http://www.devuxer.com/feed.xml</link><description /><item><guid isPermaLink="true">http://www.devuxer.com/2013/12/starting-a-blog/</guid><link>http://www.devuxer.com/2013/12/starting-a-blog/</link><title>Powered By Sandra Snow</title><description>&lt;p&gt;Welcome to my new blog. I've wanted to have a blog for a while, but I hesitated because I thought it would take a lot of effort to get started.&lt;/p&gt;
+
+&lt;p&gt;Now that I've done it, I can say, yep, it really was a pain!&lt;/p&gt;
+
+&lt;p&gt;There are three reasons creating this blog was hard:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I started from nothing.&lt;/li&gt;
+&lt;li&gt;I wanted a solution that would give me full control over my content.&lt;/li&gt;
+&lt;li&gt;I didn't want to pay for hosting.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Going from zero to blog in...many hours&lt;/h1&gt;
+
+&lt;p&gt;I had to make a number of tough decisions along the way. Here are some of them:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Domain: &lt;a href="http://www.devuxer.com"&gt;devuxer.com&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Domain registrar: &lt;a href="https://www.namecheap.com/"&gt;Namecheap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Web host: &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Blog generator: &lt;a href="https://github.com/Sandra/Sandra.Snow"&gt;Sandra Snow&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There were also decisions within decisions. For example, Namecheap offers &lt;a href="http://www.whoisguard.com/"&gt;WhoisGuard&lt;/a&gt; free for one year. The idea behind WhoisGuard is that it keeps your personal contact information hidden from anyone trying to find out who owns your domain. Apparently, some feel this type of thing makes it easier for &lt;a href="http://www.hostingdiscussion.com/domain-name-issues/10374-why-should-we-pay-whois-guard.html"&gt;scammers to hide their identity&lt;/a&gt;, however, not hiding it can result in spam. I left it deactivated for about three days. Then I got my first piece of spam relating to my domain. That was the end of my experiment with not using WhoisGuard.&lt;/p&gt;
+
+&lt;h1&gt;Sandra Snow&lt;/h1&gt;
+
+&lt;p&gt;Once I decided I wanted to host my blog on GitHub, I spent quite a bit of time reading about and fiddling with Github Pages, Jekyll, and Jekyll Bootstrap. I really liked the idea of writing my posts in markdown, then running some code that magically turns them into a blog, but I was getting bogged down in the details of how to actually set everything up. I also kept reading things like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;GitHub cannot afford to run arbitrary code on their servers so they lock developers down via Liquid. Liquid is not programmer-friendly.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;At some point, not really expecting anything to come of it, I hopped on JabbR and said:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;YU so confusing, Jekyll?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Phillip Haydon responded:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Use Snow &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That's when things started to get easier. (Not quite easy, but definitely easier.) Rather than a Ruby solution like Jekyll, Sandra.Snow is a .NET solution. If I needed to debug anything (I did), I already had all the tools and at least some of the know-how. And instead of the dreaded Liquid, I would get to use good ol' Razor templates.&lt;/p&gt;
+
+&lt;h1&gt;Here's a Snow step-by-step&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Pretend you are going to use GitHub Pages:
+&lt;ul&gt;
+&lt;li&gt;Create a new repository in GitHub called your-domain (e.g., devuxer.com).
+&lt;ul&gt;
+&lt;li&gt;Enter a description (e.g., My blog).&lt;/li&gt;
+&lt;li&gt;Don't worry about a README (I didn't bother with it and nothing bad happened to me).&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Go into the settings for the repository:
+&lt;ul&gt;
+&lt;li&gt;Click "Automatic Page Generator".&lt;/li&gt;
+&lt;li&gt;Click "Continue to Layouts" (don't both editing the page).&lt;/li&gt;
+&lt;li&gt;Choose the MINIMAL layout (actually, it doesn't matter).&lt;/li&gt;
+&lt;li&gt;Click PUBLISH.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;You should not have a gh-pages branch.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Haha I was just kidding:
+&lt;ul&gt;
+&lt;li&gt;Install &lt;a href="http://windows.github.com/"&gt;GitHub for Windows&lt;/a&gt;, if necessary.&lt;/li&gt;
+&lt;li&gt;Go back to your browser and click "Clone In Desktop".&lt;/li&gt;
+&lt;li&gt;In Windows Explorer, delete everything except the .git folder from your working directory.&lt;/li&gt;
+&lt;li&gt;Commit changes.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Replace all that stuff with the Sandra Snow Template:
+&lt;ul&gt;
+&lt;li&gt;Bring up the &lt;a href="https://github.com/Sandra/Sandra.Snow.SnowTemplate"&gt;Sandra Snow Template&lt;/a&gt; in your browser.&lt;/li&gt;
+&lt;li&gt;Click "Clone in Desktop".&lt;/li&gt;
+&lt;li&gt;In Windows Explorer, copy everything (except the .git folder) from the working directory of the template to the working directory of your blog.&lt;/li&gt;
+&lt;li&gt;Run compile.snow.bat to generate all the folders and files.&lt;/li&gt;
+&lt;li&gt;Commit changes.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Replace anything that begins with "phill" with your own info:
+&lt;ul&gt;
+&lt;li&gt;Files you will almost certainly need to edit:
+&lt;ul&gt;
+&lt;li&gt;Root directory: CNAME&lt;/li&gt;
+&lt;li&gt;Snow directory: about.cshtml, rss.xml, snow.config&lt;/li&gt;
+&lt;li&gt;Snow_layouts directory: default.cshtml&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Run compile.snow.bat again to generate the site.&lt;/li&gt;
+&lt;li&gt;Commit changes.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Tell your domain registrar to redirect all web traffic to GitHub:
+&lt;ul&gt;
+&lt;li&gt;Log into Namecheap (or a registrar of your choice).&lt;/li&gt;
+&lt;li&gt;Navigate to the management screen for your domain.&lt;/li&gt;
+&lt;li&gt;Click URL Forwarding (or whatever your registrar calls it).&lt;/li&gt;
+&lt;li&gt;Set up your redirect to go from your domain to:
+&lt;ul&gt;
+&lt;li&gt;Record Type = A (Address)&lt;/li&gt;
+&lt;li&gt;IP Address/URL = 204.232.175.78&lt;/li&gt;
+&lt;li&gt;TTL = 3259.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Set up &lt;a href="http://disqus.com/"&gt;Disqus&lt;/a&gt; to handle your comments:
+&lt;ul&gt;
+&lt;li&gt;Create a Disqus account, in necessary.&lt;/li&gt;
+&lt;li&gt;Click "Add Disqus to Your Site".&lt;/li&gt;
+&lt;li&gt;Follow the prompts until you get to a "Choose your platform" page, then stop.&lt;/li&gt;
+&lt;li&gt;Open your blog's working directory, locate Snow_layouts\Post.cshtml, and replace &lt;code&gt;*disqus id*&lt;/code&gt; with your site's Disqus shortname (e.g., devuxer).&lt;/li&gt;
+&lt;li&gt;Commit changes.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Replace all the sample posts with what will become your first post:
+&lt;ul&gt;
+&lt;li&gt;Download &lt;a href="http://markdownpad.com/"&gt;MarkdownPad&lt;/a&gt;, if necessary.&lt;/li&gt;
+&lt;li&gt;Go to your working directory and delete all but one of the posts in Snow_posts.&lt;/li&gt;
+&lt;li&gt;Rename the file with the correct date and title.&lt;/li&gt;
+&lt;li&gt;Open the file in MarkdownPad and commence blogging!&lt;/li&gt;
+&lt;li&gt;Run compile.snow.bat again to generate the site.&lt;/li&gt;
+&lt;li&gt;Commit and sync to GitHub.&lt;/li&gt;
+&lt;li&gt;Look for your updated blog to appear in 10 minutes or less.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Do some things I haven't done yet:
+&lt;ul&gt;
+&lt;li&gt;Edit the theme to give your blog a unique look and feel.&lt;/li&gt;
+&lt;li&gt;Make sure people are actually able to leave a comment.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;If you want a blog that's truly your own, it's going to take some work to set up. If your situation is similar to mine, hopefully, I've at least spared you some of the struggle. Regardless, once you get over the hump of setting things up, it will be smooth sailing. At least, that's the idea.&lt;/p&gt;
+</description><pubDate>Sun, 15 Dec 2013 08:00:00 Z</pubDate><a10:updated>2013-12-15T08:00:00Z</a10:updated><a10:content type="text">&lt;p&gt;Welcome to my new blog. I've wanted to have a blog for a while, but I hesitated because I thought it would take a lot of effort to get started.&lt;/p&gt;
+
+&lt;p&gt;Now that I've done it, I can say, yep, it really was a pain!&lt;/p&gt;
+
+&lt;p&gt;There are three reasons creating this blog was hard:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I started from nothing.&lt;/li&gt;
+&lt;li&gt;I wanted a solution that would give me full control over my content.&lt;/li&gt;
+&lt;li&gt;I didn't want to pay for hosting.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Going from zero to blog in...many hours&lt;/h1&gt;
+
+&lt;p&gt;I had to make a number of tough decisions along the way. Here are some of them:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Domain: &lt;a href="http://www.devuxer.com"&gt;devuxer.com&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Domain registrar: &lt;a href="https://www.namecheap.com/"&gt;Namecheap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Web host: &lt;a href="https://github.com/"&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Blog generator: &lt;a href="https://github.com/Sandra/Sandra.Snow"&gt;Sandra Snow&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There were also decisions within decisions. For example, Namecheap offers &lt;a href="http://www.whoisguard.com/"&gt;WhoisGuard&lt;/a&gt; free for one year. The idea behind WhoisGuard is that it keeps your personal contact information hidden from anyone trying to find out who owns your domain. Apparently, some feel this type of thing makes it easier for &lt;a href="http://www.hostingdiscussion.com/domain-name-issues/10374-why-should-we-pay-whois-guard.html"&gt;scammers to hide their identity&lt;/a&gt;, however, not hiding it can result in spam. I left it deactivated for about three days. Then I got my first piece of spam relating to my domain. That was the end of my experiment with not using WhoisGuard.&lt;/p&gt;
+
+&lt;h1&gt;Sandra Snow&lt;/h1&gt;
+
+&lt;p&gt;Once I decided I wanted to host my blog on GitHub, I spent quite a bit of time reading about and fiddling with Github Pages, Jekyll, and Jekyll Bootstrap. I really liked the idea of writing my posts in markdown, then running some code that magically turns them into a blog, but I was getting bogged down in the details of how to actually set everything up. I also kept reading things like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;GitHub cannot afford to run arbitrary code on their servers so they lock developers down via Liquid. Liquid is not programmer-friendly.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;At some point, not really expecting anything to come of it, I hopped on JabbR and said:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;YU so confusing, Jekyll?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Phillip Haydon responded:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Use Snow &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That's when things started to get easier. (Not quite easy, but definitely easier.) Rather than a Ruby solution like Jekyll, Sandra.Snow is a .NET solution. If I needed to debug anything (I did), I already had all the tools and at least some of the know-how. And instead of the dreaded Liquid, I would get to use good ol' Razor templates.&lt;/p&gt;
+
+&lt;h1&gt;Here's a Snow step-by-step&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Pretend you are going to use GitHub Pages:
+&lt;ul&gt;
+&lt;li&gt;Create a new repository in GitHub called your-domain (e.g., devuxer.com).
+&lt;ul&gt;
+&lt;li&gt;Enter a description (e.g., My blog).&lt;/li&gt;
+&lt;li&gt;Don't worry about a README (I didn't bother with it and nothing bad happened to me).&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Go into the settings for the repository:
+&lt;ul&gt;
+&lt;li&gt;Click "Automatic Page Generator".&lt;/li&gt;
+&lt;li&gt;Click "Continue to Layouts" (don't both editing the page).&lt;/li&gt;
+&lt;li&gt;Choose the MINIMAL layout (actually, it doesn't matter).&lt;/li&gt;
+&lt;li&gt;Click PUBLISH.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;You should not have a gh-pages branch.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Haha I was just kidding:
+&lt;ul&gt;
+&lt;li&gt;Install &lt;a href="http://windows.github.com/"&gt;GitHub for Windows&lt;/a&gt;, if necessary.&lt;/li&gt;
+&lt;li&gt;Go back to your browser and click "Clone In Desktop".&lt;/li&gt;
+&lt;li&gt;In Windows Explorer, delete everything except the .git folder from your working directory.&lt;/li&gt;
+&lt;li&gt;Commit changes.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Replace all that stuff with the Sandra Snow Template:
+&lt;ul&gt;
+&lt;li&gt;Bring up the &lt;a href="https://github.com/Sandra/Sandra.Snow.SnowTemplate"&gt;Sandra Snow Template&lt;/a&gt; in your browser.&lt;/li&gt;
+&lt;li&gt;Click "Clone in Desktop".&lt;/li&gt;
+&lt;li&gt;In Windows Explorer, copy everything (except the .git folder) from the working directory of the template to the working directory of your blog.&lt;/li&gt;
+&lt;li&gt;Run compile.snow.bat to generate all the folders and files.&lt;/li&gt;
+&lt;li&gt;Commit changes.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Replace anything that begins with "phill" with your own info:
+&lt;ul&gt;
+&lt;li&gt;Files you will almost certainly need to edit:
+&lt;ul&gt;
+&lt;li&gt;Root directory: CNAME&lt;/li&gt;
+&lt;li&gt;Snow directory: about.cshtml, rss.xml, snow.config&lt;/li&gt;
+&lt;li&gt;Snow_layouts directory: default.cshtml&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Run compile.snow.bat again to generate the site.&lt;/li&gt;
+&lt;li&gt;Commit changes.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Tell your domain registrar to redirect all web traffic to GitHub:
+&lt;ul&gt;
+&lt;li&gt;Log into Namecheap (or a registrar of your choice).&lt;/li&gt;
+&lt;li&gt;Navigate to the management screen for your domain.&lt;/li&gt;
+&lt;li&gt;Click URL Forwarding (or whatever your registrar calls it).&lt;/li&gt;
+&lt;li&gt;Set up your redirect to go from your domain to:
+&lt;ul&gt;
+&lt;li&gt;Record Type = A (Address)&lt;/li&gt;
+&lt;li&gt;IP Address/URL = 204.232.175.78&lt;/li&gt;
+&lt;li&gt;TTL = 3259.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Set up &lt;a href="http://disqus.com/"&gt;Disqus&lt;/a&gt; to handle your comments:
+&lt;ul&gt;
+&lt;li&gt;Create a Disqus account, in necessary.&lt;/li&gt;
+&lt;li&gt;Click "Add Disqus to Your Site".&lt;/li&gt;
+&lt;li&gt;Follow the prompts until you get to a "Choose your platform" page, then stop.&lt;/li&gt;
+&lt;li&gt;Open your blog's working directory, locate Snow_layouts\Post.cshtml, and replace &lt;code&gt;*disqus id*&lt;/code&gt; with your site's Disqus shortname (e.g., devuxer).&lt;/li&gt;
+&lt;li&gt;Commit changes.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Replace all the sample posts with what will become your first post:
+&lt;ul&gt;
+&lt;li&gt;Download &lt;a href="http://markdownpad.com/"&gt;MarkdownPad&lt;/a&gt;, if necessary.&lt;/li&gt;
+&lt;li&gt;Go to your working directory and delete all but one of the posts in Snow_posts.&lt;/li&gt;
+&lt;li&gt;Rename the file with the correct date and title.&lt;/li&gt;
+&lt;li&gt;Open the file in MarkdownPad and commence blogging!&lt;/li&gt;
+&lt;li&gt;Run compile.snow.bat again to generate the site.&lt;/li&gt;
+&lt;li&gt;Commit and sync to GitHub.&lt;/li&gt;
+&lt;li&gt;Look for your updated blog to appear in 10 minutes or less.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Do some things I haven't done yet:
+&lt;ul&gt;
+&lt;li&gt;Edit the theme to give your blog a unique look and feel.&lt;/li&gt;
+&lt;li&gt;Make sure people are actually able to leave a comment.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;If you want a blog that's truly your own, it's going to take some work to set up. If your situation is similar to mine, hopefully, I've at least spared you some of the struggle. Regardless, once you get over the hump of setting things up, it will be smooth sailing. At least, that's the idea.&lt;/p&gt;
 </a10:content></item></channel></rss>

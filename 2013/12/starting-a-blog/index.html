@@ -33,14 +33,22 @@
                 <div id="content" role="main">
                   
 
-  <ul class="posts">
-    <li class="fancy-container lightblue">
-      <h1>
-        <a href="/2013/12/starting-a-blog/">Powered By Sandra Snow</a> 
-        <span>posted on 15 Dec 2013</span>
-      </h1> 
+<div id="post">
+    <h1>Powered By Sandra Snow</h1>
+    <div class="post-note">
+        posted on 15 Dec 2013
+            | <a href="/category/blogging">blogging</a>
       
-      <p>Welcome to my new blog. I've wanted to have a blog for a while, but I hesitated because I thought it would take a lot of effort to get started.</p>
+        <div class="addthis_toolbox addthis_default_style" style="float:right;">
+            <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+            <a class="addthis_button_tweet"></a>
+            <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+            <a class="addthis_button_linkedin_counter"></a>
+            <a class="addthis_counter addthis_pill_style"></a>
+        </div>
+    </div>
+    
+    <p>Welcome to my new blog. I've wanted to have a blog for a while, but I hesitated because I thought it would take a lot of effort to get started.</p>
 
 <p>Now that I've done it, I can say, yep, it really was a pain!</p>
 
@@ -173,21 +181,34 @@
 
 <p>If you want a blog that's truly your own, it's going to take some work to set up. If your situation is similar to mine, hopefully, I've at least spared you some of the struggle. Regardless, once you get over the hump of setting things up, it will be smooth sailing. At least, that's the idea.</p>
 
-      <p><a href="/2013/12/starting-a-blog/">Read more...</a></p>
-    </li>
-  </ul> 
+    <div id="disqus_thread"></div>
+<script>
+    var reset_disqus = function(){
+        DISQUS.reset({
+            reload: true,
+            config: function () {
+                //this.page.identifier = '';
+                this.page.url = 'http://www.devuxer.com/2013/12/starting-a-blog/';
+                //this.page.title = '';
+            }
+        });
+    };
 
-  <!-- Pagination links -->
-  <div id="post-pagination" class="pagination">
+    var disqus_shortname = 'devuxer';
+    var disqus_url = 'http://www.devuxer.com/2013/12/starting-a-blog/';
 
-   
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
 
-      <!--<a href="/">Previous Page</a>-->
-
-
-  </div>
-
-
+    window.addEventListener('orientationchange', reset_disqus);
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-****"></script>
+</div>
                 </div>
                 <!-- #content -->
             </div>
