@@ -85,7 +85,7 @@
 &lt;ul&gt;
 &lt;li&gt;Root directory: CNAME&lt;/li&gt;
 &lt;li&gt;Snow directory: about.cshtml, rss.xml, snow.config&lt;/li&gt;
-&lt;li&gt;Snow_layouts directory: default.cshtml&lt;/li&gt;
+&lt;li&gt;Snow/_layouts directory: default.cshtml&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Run compile.snow.bat again to generate the site.&lt;/li&gt;
 &lt;li&gt;Commit changes.&lt;/li&gt;
@@ -107,25 +107,25 @@
 &lt;li&gt;Create a Disqus account, if necessary.&lt;/li&gt;
 &lt;li&gt;Click "Add Disqus to Your Site".&lt;/li&gt;
 &lt;li&gt;Follow the prompts until you get to a "Choose your platform" page, then stop.&lt;/li&gt;
-&lt;li&gt;Locate post.cshtml in Snow\_layouts and replace &lt;code&gt;*disqus id*&lt;/code&gt; with your site's Disqus shortname (e.g., devuxer).&lt;/li&gt;
+&lt;li&gt;Locate post.cshtml in Snow/_layouts and replace &lt;code&gt;*disqus id*&lt;/code&gt; with your site's Disqus shortname (e.g., devuxer).&lt;/li&gt;
 &lt;li&gt;Commit changes.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Set up Google Analytics and AddThis so you can obtain some some nice statistics on your blog:
 &lt;ul&gt;
 &lt;li&gt;Browse to &lt;a href="http://www.google.com/analytics/"&gt;Google Analytics&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Create a new account pointing to your domain.&lt;/li&gt;
-&lt;li&gt;Open default.cshtml in Snow\&lt;em&gt;layouts.&lt;/li&gt;
+&lt;li&gt;Open default.cshtml in Snow/_layouts.&lt;/li&gt;
 &lt;li&gt;Replace the &lt;code&gt;****&lt;/code&gt; in &lt;code&gt;_gaq.push(['_setAccount', '****']);&lt;/code&gt; with your Tracking ID.&lt;/li&gt;
 &lt;li&gt;Add &lt;code&gt;@Html.RenderGoogleAnalytics("[your-tracking-id]")&lt;/code&gt; below the &lt;code&gt;prettify&lt;/code&gt; script element.&lt;/li&gt;
 &lt;li&gt;Browse to &lt;a href="http://www.addthis.com/"&gt;AddThis&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Create a new account.&lt;/li&gt;
-&lt;li&gt;Open post.cshtml in Snow\&lt;/em&gt;layouts.&lt;/li&gt;
-&lt;li&gt;Replace the &lt;code&gt;****&lt;/code&gt; in &lt;code&gt;#pubid=ra-****"&lt;/code&gt; with the code provided under "Add to your site".&lt;/li&gt;
+&lt;li&gt;Open post.cshtml in Snow/_layouts.&lt;/li&gt;
+&lt;li&gt;Replace the &lt;code&gt;****&lt;/code&gt; in &lt;code&gt;#pubid=ra-****&lt;/code&gt; with the code provided under "Add to your site".&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Replace all the sample posts with what will become your first post:
 &lt;ul&gt;
 &lt;li&gt;Download &lt;a href="http://markdownpad.com/"&gt;MarkdownPad&lt;/a&gt;, if necessary.&lt;/li&gt;
-&lt;li&gt;Delete all but one of the posts in Snow\_posts.&lt;/li&gt;
+&lt;li&gt;Delete all but one of the posts in Snow/_posts.&lt;/li&gt;
 &lt;li&gt;Rename the remaining file with the correct date and title.&lt;/li&gt;
 &lt;li&gt;Open the file in MarkdownPad and commence blogging!&lt;/li&gt;
 &lt;li&gt;Run compile.snow.bat again to generate the site.&lt;/li&gt;
@@ -229,7 +229,7 @@
 &lt;ul&gt;
 &lt;li&gt;Root directory: CNAME&lt;/li&gt;
 &lt;li&gt;Snow directory: about.cshtml, rss.xml, snow.config&lt;/li&gt;
-&lt;li&gt;Snow_layouts directory: default.cshtml&lt;/li&gt;
+&lt;li&gt;Snow/_layouts directory: default.cshtml&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Run compile.snow.bat again to generate the site.&lt;/li&gt;
 &lt;li&gt;Commit changes.&lt;/li&gt;
@@ -251,25 +251,25 @@
 &lt;li&gt;Create a Disqus account, if necessary.&lt;/li&gt;
 &lt;li&gt;Click "Add Disqus to Your Site".&lt;/li&gt;
 &lt;li&gt;Follow the prompts until you get to a "Choose your platform" page, then stop.&lt;/li&gt;
-&lt;li&gt;Locate post.cshtml in Snow\_layouts and replace &lt;code&gt;*disqus id*&lt;/code&gt; with your site's Disqus shortname (e.g., devuxer).&lt;/li&gt;
+&lt;li&gt;Locate post.cshtml in Snow/_layouts and replace &lt;code&gt;*disqus id*&lt;/code&gt; with your site's Disqus shortname (e.g., devuxer).&lt;/li&gt;
 &lt;li&gt;Commit changes.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Set up Google Analytics and AddThis so you can obtain some some nice statistics on your blog:
 &lt;ul&gt;
 &lt;li&gt;Browse to &lt;a href="http://www.google.com/analytics/"&gt;Google Analytics&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Create a new account pointing to your domain.&lt;/li&gt;
-&lt;li&gt;Open default.cshtml in Snow\&lt;em&gt;layouts.&lt;/li&gt;
+&lt;li&gt;Open default.cshtml in Snow/_layouts.&lt;/li&gt;
 &lt;li&gt;Replace the &lt;code&gt;****&lt;/code&gt; in &lt;code&gt;_gaq.push(['_setAccount', '****']);&lt;/code&gt; with your Tracking ID.&lt;/li&gt;
 &lt;li&gt;Add &lt;code&gt;@Html.RenderGoogleAnalytics("[your-tracking-id]")&lt;/code&gt; below the &lt;code&gt;prettify&lt;/code&gt; script element.&lt;/li&gt;
 &lt;li&gt;Browse to &lt;a href="http://www.addthis.com/"&gt;AddThis&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Create a new account.&lt;/li&gt;
-&lt;li&gt;Open post.cshtml in Snow\&lt;/em&gt;layouts.&lt;/li&gt;
-&lt;li&gt;Replace the &lt;code&gt;****&lt;/code&gt; in &lt;code&gt;#pubid=ra-****"&lt;/code&gt; with the code provided under "Add to your site".&lt;/li&gt;
+&lt;li&gt;Open post.cshtml in Snow/_layouts.&lt;/li&gt;
+&lt;li&gt;Replace the &lt;code&gt;****&lt;/code&gt; in &lt;code&gt;#pubid=ra-****&lt;/code&gt; with the code provided under "Add to your site".&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Replace all the sample posts with what will become your first post:
 &lt;ul&gt;
 &lt;li&gt;Download &lt;a href="http://markdownpad.com/"&gt;MarkdownPad&lt;/a&gt;, if necessary.&lt;/li&gt;
-&lt;li&gt;Delete all but one of the posts in Snow\_posts.&lt;/li&gt;
+&lt;li&gt;Delete all but one of the posts in Snow/_posts.&lt;/li&gt;
 &lt;li&gt;Rename the remaining file with the correct date and title.&lt;/li&gt;
 &lt;li&gt;Open the file in MarkdownPad and commence blogging!&lt;/li&gt;
 &lt;li&gt;Run compile.snow.bat again to generate the site.&lt;/li&gt;

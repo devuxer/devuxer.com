@@ -1,104 +1,68 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta http-equiv="last-modified" content="2013-12-24T20:56:04.1941080-08:00" />
-    <title>devuxer</title>
-    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
-</head>
-<body class="home blog">
-    <div id="page" class="hfeed site">
-        <header id="masthead" class="site-header fancy-container lightgreen" role="banner">
-            <hgroup>
-                <h1 class="site-title"><a href="/" title="devuxer" rel="home">devuxer</a></h1>
-                <h2><small>developer + user experience designer = devuxer</small></h2>
-                <p class="site-description">A blog about designing and developing software that makes life better for people.</p>
-            </hgroup>
-            <nav role="navigation" class="site-navigation main-navigation">
-                <h1 class="assistive-text">Menu</h1>
-                <div class="assistive-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
-                <div class="menu">
-                    <ul>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta http-equiv="last-modified" content="2014-01-12T11:16:23.3938333-08:00" />
+        <title>devuxer</title>
+        <link rel="stylesheet" href="/stylesheets/style.css" />
+    </head>
+    <body>
+        <header role="banner">
+            <div id="header-main">
+                <ul id="follow-list">
+                    <li>
+                        <a href="https://twitter.com/devuxer" 
+                           onclick=" javascript:_gaq.push(['_trackEvent', 'outbound-widget', 'http://twitter.com']); ">
+                            <img src="/images/twitter.png">
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="http://stackoverflow.com/users/129164/devuxer" 
+                           onclick=" javascript:_gaq.push(['_trackEvent', 'outbound-widget', 'http://stackoverflow.com']); ">
+                            <img src="/images/stackoverflow.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/devuxer" 
+                           onclick=" javascript:_gaq.push(['_trackEvent', 'outbound-widget', 'http://github.com']); ">
+                            <img src="/images/github.png">
+                        </a>
+                    </li>
+                </ul>
+                <p id="blog-title"><a href="/" title="devuxer" rel="home">devuxer</a></p>
+                <p id="blog-title-explanation">[developer + user experience designer = devuxer]</p>
+                <p id="blog-description">Designing and developing software that makes life better for people</p>
+                <nav role="navigation">
+                    <ul id="navigation-list">
                         <li><a href="/about">About</a></li>
                         <li><a href="/category">Categories</a></li>
                         <li><a href="/archive">Archive</a></li>
-                        <li><a href="/rss">RSS</a> / <a href="/feed">Atom</a></li>
+                        <li><a href="/recommended">Recommended</a></li>
+                        <li><a href="/feed">RSS/Feed</a></li>
                     </ul>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </header>
-        <div id="main">
-            <div id="primary" class="site-content">
-                <div id="content" role="main">
-                  
+        <div id="content" role="main">
+            <div id="content-main">
 
-  <header>
-  <div class="head-inner">
-    <h1>Categories</h1>
-  </div>
-  </header>
-  
-  <ul class="category-list fancy-container darkishblue">
-      <li><a href="/category/blogging" title="blogging">blogging</a></li>
-  </ul>
-  
+<h1>Categories</h1>
 
-                </div>
-                <!-- #content -->
-            </div>
-            <!-- #primary .site-content -->
-
-            <div id="secondary" class="widget-area fancy-container lightred" role="complementary">
-                <aside id="text-5" class="widget widget_text">
-                    <h1 class="widget-title">Follow</h1>
-                    <div class="textwidget logos">
-                        <a href="https://twitter.com/devuxer" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://twitter.com']);">
-                            <img src="/images/twitter.png"></a>
-                        <a href="http://stackoverflow.com/users/129164/devuxer" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://stackoverflow.com']);">
-                            <img src="/images/stackoverflow.png">
-                        </a>
-                        <a href="https://github.com/devuxer" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://github.com']);">
-                            <img src="/images/github.png">
-                        </a>
-                    </div>
-                    <a href="http://stackoverflow.com/users/129164/devuxer">
-                      <img src="http://stackoverflow.com/users/flair/129164.png" width="208" height="58" alt="profile for devuxer at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for devuxer at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
-                    </a>
-                <aside id="linkcat-6" class="widget widget_links">
-                    <h1 class="widget-title">Other Blogs</h1>
-                    <ul class='xoxo blogroll'>
-                        <li><a href="http://www.philliphaydon.com/" target="" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://www.philliphaydon.com/']);">Phillip Haydon</a></li>
-                        <li><a href="http://buildstarted.com/" target="" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://buildstarted.com']);">Ben Dornis</a></li>
-                    </ul>
-                    
-                </aside>
-                <aside id="archives-4" class="widget widget_archive">
-                    <h1 class="widget-title">Archive</h1>
-                    <ul class="posts">
-                          <li><a href="/archive#2013December">December, 2013</a></li>
-                    </ul>
-                </aside>
-            </div>
-            <!-- #secondary .widget-area -->
-
-
+<ul>
+        <li><a href="/category/blogging" title="Blogging">Blogging</a></li>
+        <li><a href="/category/sandra-snow" title="Sandra Snow">Sandra Snow</a></li>
+</ul></div>
         </div>
-        <!-- #main -->
-
-        <footer id="colophon" class="site-footer" role="contentinfo">
-            <div class="site-info">
-                Powered by <a href="https://github.com/Sandra/Sandra.Snow" rel="generator">Sandra.Snow</a>.	
-            </div>
-            <!-- .site-info -->
+        <footer role="contentinfo">
+            <div id="footer-main">Powered by <a href="https://github.com/Sandra/Sandra.Snow" rel="generator">Sandra.Snow</a></div>
         </footer>
-        <!-- #colophon .site-footer -->
-    </div>
-    <!-- #page .hfeed .site -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src='/javascripts/prettify.js' type='text/javascript'></script>
-    <!--script src='http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js' type='text/javascript'></script-->
-    <script type="text/javascript">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="/javascripts/prettify.js"></script>
+        <script src="/javascripts/prettyPrint.js"></script>
+        <script src="/javascripts/googleAnalyticsHelper.js"></script>
+        <script type="text/javascript">
 var _gaq = _gaq || [];
 
 _gaq.push(['_setAccount', 'UA-46486876-1']);
@@ -113,27 +77,5 @@ _gaq.push(['_trackPageview']);
     s.parentNode.insertBefore(ga, s);
 })();
 </script>
-    <script type='text/javascript'>
-      $(function () {
-        $("pre code").parent().each(function () {
-          if (!$(this).hasClass("prettyprint")) {
-            $(this).addClass("prettyprint");
-            a = true
-          }
-        });
-
-        prettyPrint();
-      });
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-46486876-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-</body>
+    </body>
 </html>
