@@ -48,12 +48,18 @@
         <div id="content" role="main">
             <div id="content-main">
 
-<ul id="posts">
-        <li>
-            <p class="post-date">13 January 2014</p>
-            <p class="post-title"><a href="/2014/01/self-hosting-a-web-app-with-nancy/">Serving up a website from a console app using Nancy</a></p>
-            
-            <p>Have you ever wanted to build a desktop application that runs in a browser? As this post explains, <a href="http://nancyfx.org/">Nancy</a> makes it pretty darn easy--as long as you follow the right approach.</p>
+<article>
+    <p>
+        <span>Categories:</span>
+            <a href="/category/nancy">Nancy</a>
+                |
+            <a href="/category/web-applications">Web Applications</a>
+    </p>
+
+    <p class="post-date">13 January 2014</p>
+    <p class="post-title">Serving up a website from a console app using Nancy</p>
+    
+    <p>Have you ever wanted to build a desktop application that runs in a browser? As this post explains, <a href="http://nancyfx.org/">Nancy</a> makes it pretty darn easy--as long as you follow the right approach.</p>
 
 <h1>Use case</h1>
 
@@ -130,164 +136,47 @@
 
 <p>If you want to build a web application for individual use, and you want it to be portable and as easy to run as any desktop app, use a Nancy self hosted console app for deployment, but do your web development and debugging with an ASP.NET-hosted Nancy web app. It's barely any extra work to set up this way, and it will ensure all your web development tools work as designed.</p>
 
-            <p><a href="/2014/01/self-hosting-a-web-app-with-nancy/">Read more...</a></p>
-        </li>
-        <li>
-            <p class="post-date">15 December 2013</p>
-            <p class="post-title"><a href="/2013/12/starting-a-blog/">Powered by Sandra Snow</a></p>
-            
-            <p>Welcome to my new blog. I've wanted to have a blog for a while, but I hesitated because I thought it would take a lot of effort to get started.</p>
+    
+    <!-- AddThis Button BEGIN -->
+    
+    <div class="addthis_toolbox addthis_default_style ">
+        <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+        <a class="addthis_button_tweet"></a>
+        <a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal"></a>
+        <a class="addthis_counter addthis_pill_style"></a>
+    </div>
+    
+    <script type="text/javascript"> var addthis_config = { "data_track_addressbar": true }; </script>
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52af4cfd284f7c10"></script>
+    <!-- AddThis Button END -->
 
-<p>Now that I've done it, I can say, yep, it really was a pain!</p>
+    <div id="disqus_thread"></div>
+<script>
+    var reset_disqus = function(){
+        DISQUS.reset({
+            reload: true,
+            config: function () {
+                //this.page.identifier = '';
+                this.page.url = 'http://www.devuxer.com/2014/01/self-hosting-a-web-app-with-nancy/';
+                //this.page.title = '';
+            }
+        });
+    };
 
-<p>There are three reasons creating this blog was hard:</p>
+    var disqus_shortname = 'devuxer';
+    var disqus_url = 'http://www.devuxer.com/2014/01/self-hosting-a-web-app-with-nancy/';
 
-<ol>
-<li>I started from nothing.</li>
-<li>I wanted a solution that would give me full control over my content.</li>
-<li>I didn't want to pay for hosting.</li>
-</ol>
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
 
-<h1>Going from zero to blog in...many hours</h1>
-
-<p>I had to make a number of tough decisions along the way. Here are some of them:</p>
-
-<ol>
-<li>What should my domain be? <a href="http://www.devuxer.com">devuxer.com</a> </li>
-<li>Which domain registrar should I use? <a href="https://www.namecheap.com/">Namecheap</a></li>
-<li>Who should be my web host? <a href="https://github.com/">GitHub</a></li>
-<li>How will I generate my blog? <a href="https://github.com/Sandra/Sandra.Snow">Sandra Snow</a></li>
-</ol>
-
-<p>There were also decisions within decisions. For example, Namecheap offers <a href="http://www.whoisguard.com/">WhoisGuard</a> free for one year. The idea behind WhoisGuard is that it keeps your personal contact information hidden from anyone trying to find out who owns your domain. Apparently, some feel this type of thing makes it easier for <a href="http://www.hostingdiscussion.com/domain-name-issues/10374-why-should-we-pay-whois-guard.html">scammers to hide their identity</a>, however, not hiding it can result in spam. I left it deactivated for about three days. Then I got my first piece of spam relating to my domain. That was the end of my experiment with not using WhoisGuard.</p>
-
-<h1>Sandra Snow</h1>
-
-<p>Once I decided I wanted to host my blog on GitHub, I spent quite a bit of time reading about and fiddling with Github Pages, Jekyll, and Jekyll Bootstrap. I really liked the idea of writing my posts in markdown, then running some code that magically turns them into a blog, but I was getting bogged down in the details of how to actually set everything up. I also kept reading things like:</p>
-
-<blockquote>
-  <p>GitHub cannot afford to run arbitrary code on their servers so they lock developers down via Liquid. <a href="http://jekyllbootstrap.com/lessons/jekyll-introduction.html">Liquid is not programmer-friendly</a>.</p>
-</blockquote>
-
-<p>At some point, not really expecting anything to come of it, I hopped on <a href="https://jabbr.net/">JabbR</a> and said:</p>
-
-<blockquote>
-  <p>YU so confusing, Jekyll?</p>
-</blockquote>
-
-<p>Phillip Haydon responded:</p>
-
-<blockquote>
-  <p>Use Snow </p>
-</blockquote>
-
-<p>That's when things started to get easier. (Not quite easy, but definitely easier.) Rather than a Ruby solution like Jekyll, Sandra.Snow is a .NET solution. If I needed to debug anything (I did), I already had all the tools and at least some of the know-how. And instead of the dreaded Liquid, I would get to use good ol' Razor templates.</p>
-
-<h1>A Snow step-by-step</h1>
-
-<ol>
-<li>Pretend you are going to use GitHub Pages:
-<ul>
-<li>Create a new repository in GitHub called your-domain (e.g., devuxer.com).
-<ul>
-<li>Enter a description (e.g., My blog).</li>
-<li>Don't worry about a README (I didn't bother with it and nothing bad happened to me).</li>
-</ul></li>
-<li>Go into the settings for the repository:
-<ul>
-<li>Click "Automatic Page Generator".</li>
-<li>Click "Continue to Layouts" (don't bother editing the page).</li>
-<li>Choose the MINIMAL layout (actually, it doesn't matter).</li>
-<li>Click PUBLISH.</li>
-</ul></li>
-<li>You should now have a gh-pages branch.</li>
-</ul></li>
-<li>"Haha, I was just kidding":
-<ul>
-<li>Install <a href="http://windows.github.com/">GitHub for Windows</a>, if necessary.</li>
-<li>Go back to your browser and click "Clone In Desktop".</li>
-<li>In Windows Explorer, delete everything except the .git folder from your working directory.</li>
-<li>Commit changes.</li>
-</ul></li>
-<li>Replace all that stuff with the Sandra Snow Template:
-<ul>
-<li>Browse to the <a href="https://github.com/Sandra/Sandra.Snow.SnowTemplate">Sandra Snow Template</a>.</li>
-<li>Click "Clone in Desktop".</li>
-<li>In Windows Explorer, copy everything (except the .git folder) from the working directory of the template to the working directory of your blog.</li>
-<li>Run compile.snow.bat to generate all the folders and files.</li>
-<li>Commit changes.</li>
-</ul></li>
-<li>Replace anything that begins with "phill" with your own info:
-<ul>
-<li>Files you will almost certainly want to edit:
-<ul>
-<li>Root directory: CNAME</li>
-<li>Snow directory: about.cshtml, rss.xml, snow.config</li>
-<li>Snow/_layouts directory: default.cshtml</li>
-</ul></li>
-<li>Run compile.snow.bat again to generate the site.</li>
-<li>Commit changes.</li>
-</ul></li>
-<li>Tell your domain registrar to redirect all web traffic to GitHub:
-<ul>
-<li>Log in to Namecheap (or whoever sold you your domain).</li>
-<li>Navigate to the management screen for your domain.</li>
-<li>Click URL Forwarding (or whatever your registrar calls it).</li>
-<li>Set up your redirect to go from your domain to:
-<ul>
-<li>Record Type = A (Address)</li>
-<li>IP Address/URL = 204.232.175.78</li>
-<li>TTL = 3259</li>
-</ul></li>
-</ul></li>
-<li>Set up <a href="http://disqus.com/">Disqus</a> to handle your comments:
-<ul>
-<li>Create a Disqus account, if necessary.</li>
-<li>Click "Add Disqus to Your Site".</li>
-<li>Follow the prompts until you get to a "Choose your platform" page, then stop.</li>
-<li>Locate post.cshtml in Snow/_layouts and replace <code>*disqus id*</code> with your site's Disqus shortname (e.g., devuxer).</li>
-<li>Commit changes.</li>
-</ul></li>
-<li>Set up Google Analytics and AddThis so you can obtain some some nice statistics on your blog:
-<ul>
-<li>Browse to <a href="http://www.google.com/analytics/">Google Analytics</a>.</li>
-<li>Create a new account pointing to your domain.</li>
-<li>Open default.cshtml in Snow/_layouts.</li>
-<li>Replace the <code>****</code> in <code>_gaq.push(['_setAccount', '****']);</code> with your Tracking ID.</li>
-<li>Add <code>@Html.RenderGoogleAnalytics("[your-tracking-id]")</code> below the <code>prettify</code> script element.</li>
-<li>Browse to <a href="http://www.addthis.com/">AddThis</a>.</li>
-<li>Create a new account.</li>
-<li>Open post.cshtml in Snow/_layouts.</li>
-<li>Replace the <code>****</code> in <code>#pubid=ra-****</code> with the code provided under "Add to your site".</li>
-</ul></li>
-<li>Replace all the sample posts with what will become your first post:
-<ul>
-<li>Download <a href="http://markdownpad.com/">MarkdownPad</a>, if necessary.</li>
-<li>Delete all but one of the posts in Snow/_posts.</li>
-<li>Rename the remaining file with the correct date and title.</li>
-<li>Open the file in MarkdownPad and commence blogging!</li>
-<li>Run compile.snow.bat again to generate the site.</li>
-<li>Commit and sync to GitHub.</li>
-<li>Look for your updated blog to appear in 10 minutes or less.</li>
-</ul></li>
-<li>Do some things I haven't done yet:
-<ul>
-<li>Edit the theme to give your blog a unique look and feel.</li>
-<li>Make sure people are actually able to leave a comment.</li>
-</ul></li>
-</ol>
-
-<h1>Conclusion</h1>
-
-<p>If you want a blog that's truly your own, it's going to take some work to set up. If your situation is similar to mine, hopefully, I've at least spared you some of the struggle. Regardless, once you get over the hump of setting things up, it should be smooth sailing. At least, that's the idea.</p>
-
-            <p><a href="/2013/12/starting-a-blog/">Read more...</a></p>
-        </li>
-</ul>
-
-<!-- Pagination links -->
-<div>
-    </div></div>
+    window.addEventListener('orientationchange', reset_disqus);
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article></div>
         </div>
         <footer role="contentinfo">
             <div id="footer-main">Powered by <a href="https://github.com/Sandra/Sandra.Snow" rel="generator">Sandra.Snow</a></div>

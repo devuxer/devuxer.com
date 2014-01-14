@@ -1,4 +1,156 @@
-<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0"><channel><title /><link>http://www.devuxer.com/feed.xml</link><description /><item><guid isPermaLink="true">http://www.devuxer.com/2013/12/starting-a-blog/</guid><link>http://www.devuxer.com/2013/12/starting-a-blog/</link><title>Powered By Sandra Snow</title><description>&lt;p&gt;Welcome to my new blog. I've wanted to have a blog for a while, but I hesitated because I thought it would take a lot of effort to get started.&lt;/p&gt;
+<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0"><channel><title /><link>http://www.devuxer.com/feed.xml</link><description /><item><guid isPermaLink="true">http://www.devuxer.com/2014/01/self-hosting-a-web-app-with-nancy/</guid><link>http://www.devuxer.com/2014/01/self-hosting-a-web-app-with-nancy/</link><title>Serving up a website from a console app using Nancy</title><description>&lt;p&gt;Have you ever wanted to build a desktop application that runs in a browser? As this post explains, &lt;a href="http://nancyfx.org/"&gt;Nancy&lt;/a&gt; makes it pretty darn easy--as long as you follow the right approach.&lt;/p&gt;
+
+&lt;h1&gt;Use case&lt;/h1&gt;
+
+&lt;p&gt;My use case was simple. I wanted to build a web application, then I wanted to give it to coworkers at my company as well as some external clients to run on their own machine. I didn't want them to have to worry about starting up a web server or dealing with any configuration. I just wanted them to be able to copy over a few files and double-click an EXE. In other words, I wanted it to "just work".&lt;/p&gt;
+
+&lt;h1&gt;Self hosting Nancy&lt;/h1&gt;
+
+&lt;p&gt;When I mentioned what I was trying to accomplish on &lt;a href="https://jabbr.net/"&gt;JabbR&lt;/a&gt;, &lt;a href="http://www.grumpydev.com/"&gt;GrumpyDev&lt;/a&gt; suggested (in an entirely non-grumpy manner, I might add) that I try self hosting Nancy. All I really understood about self-hosting at that point was that it was an alternative to ASP.NET hosting. Reading the &lt;a href="https://github.com/NancyFx/Nancy/wiki/Self-Hosting-Nancy"&gt;wiki page&lt;/a&gt; (and peppering GrumpyDev with several questions) provided a bit more insight, so I decided to give it a try.&lt;/p&gt;
+
+&lt;h1&gt;This is almost awesome!&lt;/h1&gt;
+
+&lt;p&gt;The first thing I did was create a console app. Then I added the &lt;a href="https://www.nuget.org/packages/Nancy.Hosting.Self"&gt;Nancy.Hosting.Self&lt;/a&gt; NuGet package. Then, I added a module. So far, so good. Then I went to add a view, style sheet, and JavaScript file. That's when I got my first inkling that I was going a little against the grain. This being a console app, not a web project, the Add menu looked like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../images/2014-01-13/AddMenuConsoleApp.png" alt="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Instead of like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="../images/2014-01-13/AddMenuWebApp.png" alt="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, all these files could still be added, I just had to go into the Add Dialog to conjure them up. So, that's what I did. Not a big deal.&lt;/p&gt;
+
+&lt;p&gt;After fiddling a bit with the configuration and realizing that, oh, all build settings for all content files (namely, views, images, style sheets, and scripts) need to be "Content-Copy Always", I was up and running.&lt;/p&gt;
+
+&lt;p&gt;It took a minute to sink in, but this was actually a big deal. I was viewing a web page in my browser, but there was no apparent web server running. No IIS, no IIS Express, no Cassini. Pretty sweet.&lt;/p&gt;
+
+&lt;p&gt;Then I attempted to edit a view. After saving the file, I reloaded the browser. Nothing changed. I checked to make sure Visual Studio was in Debug mode, not Release (since Release mode causes Nancy to cache pages), but that wasn't the problem. Then it dawned on me, since content can't be picked up unless it is copied to the appropriate bin folder, I needed to re-run the app.&lt;/p&gt;
+
+&lt;p&gt;That worked, but it was, again, not quite the usual workflow. Still, I reasoned, "I can live with this."&lt;/p&gt;
+
+&lt;p&gt;Then, I started to notice some issues with ReSharper: it was being a little more picky than usual about how I wrote my relative paths, and a number of items seemed to have disappeared from the intellisense menu when using the JavaScript editor. It even threw some inspection warnings for using &lt;code&gt;window&lt;/code&gt; methods (such as &lt;code&gt;alert()&lt;/code&gt;), which prompted me to write a &lt;a href="http://stackoverflow.com/questions/21054706/unexpected-resharper-warnings-when-editing-a-javascript-file-in-a-console-app"&gt;StackOverflow question&lt;/a&gt; in frustration.&lt;/p&gt;
+
+&lt;p&gt;None of these problems were deal-breakers, but I started to think, there must be a better way.&lt;/p&gt;
+
+&lt;h1&gt;A better solution?&lt;/h1&gt;
+
+&lt;p&gt;After pondering a couple different ideas, I decided to try a dual-project approach. I knew that, when it came to actually writing HTML, CSS, and JavaScript, I wanted a good ol' web project, but when it came time to deliver the results to others, I wanted a nice, portable, self-hosted, console app. So, I created one "ASP.NET Empty Web Application" and one "Console Application", and added the appropriate Nancy NuGet packages to each. Next, I put all modules, views, and content files from the original project into the web app.&lt;/p&gt;
+
+&lt;p&gt;Then, I got to what I thought would be the tricky part. How do I get the files from the web project to the appropriate folders in the console app? It turned out, I needn't have worried. I just added a reference to the web project from the console app and made sure, as before, that all views and content files were set to "Content-Copy Always". As for the module, it turned out I didn't need to do a thing. Nancy is smart enough to scan both the primary project as well as referenced projects to find modules.&lt;/p&gt;
+
+&lt;h1&gt;Details&lt;/h1&gt;
+
+&lt;p&gt;A couple notes:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;After installing the Nancy.Hosting.Self NuGet package, I modified my Program class to look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;internal class Program
+{
+    private static void Main()
+    {
+        var configuration = new HostConfiguration
+        {
+            UrlReservations = { CreateAutomatically = true }
+        };
+        using (var host = new NancyHost(configuration, new Uri("http://localhost:1234")))
+        {
+            host.Start();
+            Process.Start("http://localhost:1234");
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;UrlReservations&lt;/code&gt; bit was to prevent an &lt;code&gt;AutomaticUrlReservationCreationFailureException&lt;/code&gt;, as described in the &lt;a href="https://github.com/NancyFx/Nancy/wiki/Self-Hosting-Nancy"&gt;wiki&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Process.Start()&lt;/code&gt; simply opens the home page of the web app in the default browser.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Just in case you were tempted to use the same port number for both apps, don't do this (I tried). It will fail, even if you never run both apps at the same time.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;tl;dr;&lt;/h1&gt;
+
+&lt;p&gt;If you want to build a web application for individual use, and you want it to be portable and as easy to run as any desktop app, use a Nancy self hosted console app for deployment, but do your web development and debugging with an ASP.NET-hosted Nancy web app. It's barely any extra work to set up this way, and it will ensure all your web development tools work as designed.&lt;/p&gt;
+</description><pubDate>Mon, 13 Jan 2014 08:00:00 Z</pubDate><a10:updated>2014-01-13T08:00:00Z</a10:updated><a10:content type="text">&lt;p&gt;Have you ever wanted to build a desktop application that runs in a browser? As this post explains, &lt;a href="http://nancyfx.org/"&gt;Nancy&lt;/a&gt; makes it pretty darn easy--as long as you follow the right approach.&lt;/p&gt;
+
+&lt;h1&gt;Use case&lt;/h1&gt;
+
+&lt;p&gt;My use case was simple. I wanted to build a web application, then I wanted to give it to coworkers at my company as well as some external clients to run on their own machine. I didn't want them to have to worry about starting up a web server or dealing with any configuration. I just wanted them to be able to copy over a few files and double-click an EXE. In other words, I wanted it to "just work".&lt;/p&gt;
+
+&lt;h1&gt;Self hosting Nancy&lt;/h1&gt;
+
+&lt;p&gt;When I mentioned what I was trying to accomplish on &lt;a href="https://jabbr.net/"&gt;JabbR&lt;/a&gt;, &lt;a href="http://www.grumpydev.com/"&gt;GrumpyDev&lt;/a&gt; suggested (in an entirely non-grumpy manner, I might add) that I try self hosting Nancy. All I really understood about self-hosting at that point was that it was an alternative to ASP.NET hosting. Reading the &lt;a href="https://github.com/NancyFx/Nancy/wiki/Self-Hosting-Nancy"&gt;wiki page&lt;/a&gt; (and peppering GrumpyDev with several questions) provided a bit more insight, so I decided to give it a try.&lt;/p&gt;
+
+&lt;h1&gt;This is almost awesome!&lt;/h1&gt;
+
+&lt;p&gt;The first thing I did was create a console app. Then I added the &lt;a href="https://www.nuget.org/packages/Nancy.Hosting.Self"&gt;Nancy.Hosting.Self&lt;/a&gt; NuGet package. Then, I added a module. So far, so good. Then I went to add a view, style sheet, and JavaScript file. That's when I got my first inkling that I was going a little against the grain. This being a console app, not a web project, the Add menu looked like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://www.devuxer.com/../images/2014-01-13/AddMenuConsoleApp.png" alt="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Instead of like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://www.devuxer.com/../images/2014-01-13/AddMenuWebApp.png" alt="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, all these files could still be added, I just had to go into the Add Dialog to conjure them up. So, that's what I did. Not a big deal.&lt;/p&gt;
+
+&lt;p&gt;After fiddling a bit with the configuration and realizing that, oh, all build settings for all content files (namely, views, images, style sheets, and scripts) need to be "Content-Copy Always", I was up and running.&lt;/p&gt;
+
+&lt;p&gt;It took a minute to sink in, but this was actually a big deal. I was viewing a web page in my browser, but there was no apparent web server running. No IIS, no IIS Express, no Cassini. Pretty sweet.&lt;/p&gt;
+
+&lt;p&gt;Then I attempted to edit a view. After saving the file, I reloaded the browser. Nothing changed. I checked to make sure Visual Studio was in Debug mode, not Release (since Release mode causes Nancy to cache pages), but that wasn't the problem. Then it dawned on me, since content can't be picked up unless it is copied to the appropriate bin folder, I needed to re-run the app.&lt;/p&gt;
+
+&lt;p&gt;That worked, but it was, again, not quite the usual workflow. Still, I reasoned, "I can live with this."&lt;/p&gt;
+
+&lt;p&gt;Then, I started to notice some issues with ReSharper: it was being a little more picky than usual about how I wrote my relative paths, and a number of items seemed to have disappeared from the intellisense menu when using the JavaScript editor. It even threw some inspection warnings for using &lt;code&gt;window&lt;/code&gt; methods (such as &lt;code&gt;alert()&lt;/code&gt;), which prompted me to write a &lt;a href="http://stackoverflow.com/questions/21054706/unexpected-resharper-warnings-when-editing-a-javascript-file-in-a-console-app"&gt;StackOverflow question&lt;/a&gt; in frustration.&lt;/p&gt;
+
+&lt;p&gt;None of these problems were deal-breakers, but I started to think, there must be a better way.&lt;/p&gt;
+
+&lt;h1&gt;A better solution?&lt;/h1&gt;
+
+&lt;p&gt;After pondering a couple different ideas, I decided to try a dual-project approach. I knew that, when it came to actually writing HTML, CSS, and JavaScript, I wanted a good ol' web project, but when it came time to deliver the results to others, I wanted a nice, portable, self-hosted, console app. So, I created one "ASP.NET Empty Web Application" and one "Console Application", and added the appropriate Nancy NuGet packages to each. Next, I put all modules, views, and content files from the original project into the web app.&lt;/p&gt;
+
+&lt;p&gt;Then, I got to what I thought would be the tricky part. How do I get the files from the web project to the appropriate folders in the console app? It turned out, I needn't have worried. I just added a reference to the web project from the console app and made sure, as before, that all views and content files were set to "Content-Copy Always". As for the module, it turned out I didn't need to do a thing. Nancy is smart enough to scan both the primary project as well as referenced projects to find modules.&lt;/p&gt;
+
+&lt;h1&gt;Details&lt;/h1&gt;
+
+&lt;p&gt;A couple notes:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;After installing the Nancy.Hosting.Self NuGet package, I modified my Program class to look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;internal class Program
+{
+    private static void Main()
+    {
+        var configuration = new HostConfiguration
+        {
+            UrlReservations = { CreateAutomatically = true }
+        };
+        using (var host = new NancyHost(configuration, new Uri("http://localhost:1234")))
+        {
+            host.Start();
+            Process.Start("http://localhost:1234");
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
+        }
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;UrlReservations&lt;/code&gt; bit was to prevent an &lt;code&gt;AutomaticUrlReservationCreationFailureException&lt;/code&gt;, as described in the &lt;a href="https://github.com/NancyFx/Nancy/wiki/Self-Hosting-Nancy"&gt;wiki&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Process.Start()&lt;/code&gt; simply opens the home page of the web app in the default browser.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Just in case you were tempted to use the same port number for both apps, don't do this (I tried). It will fail, even if you never run both apps at the same time.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;tl;dr;&lt;/h1&gt;
+
+&lt;p&gt;If you want to build a web application for individual use, and you want it to be portable and as easy to run as any desktop app, use a Nancy self hosted console app for deployment, but do your web development and debugging with an ASP.NET-hosted Nancy web app. It's barely any extra work to set up this way, and it will ensure all your web development tools work as designed.&lt;/p&gt;
+</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2013/12/starting-a-blog/</guid><link>http://www.devuxer.com/2013/12/starting-a-blog/</link><title>Powered by Sandra Snow</title><description>&lt;p&gt;Welcome to my new blog. I've wanted to have a blog for a while, but I hesitated because I thought it would take a lot of effort to get started.&lt;/p&gt;
 
 &lt;p&gt;Now that I've done it, I can say, yep, it really was a pain!&lt;/p&gt;
 
