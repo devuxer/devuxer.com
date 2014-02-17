@@ -1,4 +1,186 @@
-<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0"><channel><title /><link>http://www.devuxer.com/feed.xml</link><description /><item><guid isPermaLink="true">http://www.devuxer.com/2014/01/self-hosting-a-web-app-with-nancy/</guid><link>http://www.devuxer.com/2014/01/self-hosting-a-web-app-with-nancy/</link><title>Serving up a website from a console app using Nancy</title><description>&lt;p&gt;Have you ever wanted to build a desktop application that runs in a browser? As this post explains, &lt;a href="http://nancyfx.org/"&gt;Nancy&lt;/a&gt; makes it pretty darn easy--as long as you follow the right approach.&lt;/p&gt;
+<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0"><channel><title /><link>http://www.devuxer.com/feed.xml</link><description /><item><guid isPermaLink="true">http://www.devuxer.com/2014/02/why-the-mercurial-zipdoc-extension-fails-for-excel-files/</guid><link>http://www.devuxer.com/2014/02/why-the-mercurial-zipdoc-extension-fails-for-excel-files/</link><title>Why Mercurial ZipDoc Extension Fails For Excel Files</title><description>&lt;h1&gt;The problem&lt;/h1&gt;
+
+&lt;p&gt;I tend to work on small projects with small file-based databases (usually SQL Server Compact Edition). I find it very convenient to use Excel files to create the seed data for these small databases. I even have a little library that uses a combination of &lt;a href="http://epplus.codeplex.com/"&gt;EPPlus&lt;/a&gt;, Entity Framework Code First, and good ol' ADO.NET to basically convert any properly formatted Excel file into a SQL Server Compact database.&lt;/p&gt;
+
+&lt;p&gt;Given that these Excel files are part of a project and change over time, I like to keep them in source control (in my case, Mercurial). Unfortunately, given that Excel files are not simple text files, it's not easy for Mercurial to determine what has changed from version to version. This makes it basically impossible to visualize what has changed, and over time, it can bloat the repository because the deltas are not stored efficiently. I've always wondered if there was some way to do this better.&lt;/p&gt;
+
+&lt;h1&gt;The solution?&lt;/h1&gt;
+
+&lt;p&gt;After a little Googling, I came across the &lt;a href="http://mercurial.selenic.com/wiki/ZipdocExtension"&gt;Mercurial ZipDoc extension&lt;/a&gt; and downloaded it. After a little more Googling, I realized I didn't need to download it, since it was already included with TortoiseHg. ZipDoc is supposed to allow for more efficient delta compression when committing Open Office format files (such as docx and xlsx).&lt;/p&gt;
+
+&lt;h1&gt;The test&lt;/h1&gt;
+
+&lt;p&gt;After making the appropriate modifications to mercurial.ini file, I performed a small test with a sample Excel 2010 file. My file consisted of one worksheet with the following content:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;      |    A     B     C     D     E     F     G     H     I     J
+------------------------------------------------------------------
+  1   |    1     1     1     1     1     1     1     1     1     1
+  2   |    2     2     2     2     2     2     2     2     2     2
+...   |
+10000 | 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In other words, columns A to J of rows 1 to 10,000 were filled sequentially with numbers.&lt;/p&gt;
+
+&lt;p&gt;When I saved this file, its size on disk was 318 KB.&lt;/p&gt;
+
+&lt;p&gt;My test was very simple:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a repo with just the Excel file (Book1.xlsx) in it.&lt;/li&gt;
+&lt;li&gt;Commit.&lt;/li&gt;
+&lt;li&gt;Change the value of cell A1 to 10.&lt;/li&gt;
+&lt;li&gt;Commit changes.&lt;/li&gt;
+&lt;li&gt;Change the value of cell A1 back to 1.&lt;/li&gt;
+&lt;li&gt;Commit changes.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;After each commit, I noted the size of the .hg/store/data folder.&lt;/p&gt;
+
+&lt;h1&gt;The (dismal) results&lt;/h1&gt;
+
+&lt;p&gt;Here are the results:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                   ZipDoc      ZipDoc
+Commit Message    Enabled    Disabled
+-------------------------------------
+Initial commit     247 KB       32 KB
+Change A1 to 10    493 KB       59 KB
+Revert A1 to 1     738 KB       87 KB
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I was expecting ZipDoc to result in a larger initial data file size, which it certainly did, but I was not expecting it to increase so rapidly with only very minor changes to the Excel file. If fact, with ZipDoc enabled, the data file size grew at virtually the same percentage rate as with ZipDoc disabled (but starting at a much higher initial size).&lt;/p&gt;
+
+&lt;p&gt;This basically means that ZipDoc was not performing well at all, at least for my particular test case.&lt;/p&gt;
+
+&lt;h1&gt;The explanation&lt;/h1&gt;
+
+&lt;p&gt;For the Excel file in question, the structure of the zipped archive can be revealed by adding ".zip" to the name of the file and extracting the contents.&lt;/p&gt;
+
+&lt;p&gt;The result is this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;_rels
+    .rels
+docProps
+    app.xml
+    core.xml
+xl
+    _rels
+        workbook.xml.rels
+    theme
+        theme1.xml
+    worksheets
+        sheet1.xml
+    styles.xml
+    workbook.xml
+[Content_Types].xml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I used Mercurial to analyze what files actually changed between two different versions of the Excel file. The answer was just xl/worksheets/sheet1.xml.&lt;/p&gt;
+
+&lt;p&gt;Opening this file, the reason for the dismal performance of ZipDoc became instantly obvious: the entire file was contained on one line (it was essentially compressed or "minified", containing no unnecessary white space). Since Mercurial compares files based on which &lt;em&gt;lines&lt;/em&gt; have changed, it will always conclude that the entire file has changed. Hence, ZipDoc will never be able to do its job properly under these conditions.&lt;/p&gt;
+
+&lt;p&gt;When I actually formatted (prettified) sheet1.xml using Visual Studio's XML editor before committing it, Mercurial was able to find the one small difference between the two versions of the file, and it was able to store the delta very efficiently.&lt;/p&gt;
+
+&lt;h1&gt;The conclusion&lt;/h1&gt;
+
+&lt;p&gt;As long as Excel saves the component XML files as one-liners, ZipDoc won't be of any use, and will actually do more harm than good.&lt;/p&gt;
+
+&lt;p&gt;I'm not sure whether ZipDoc is being actively developed (the last update was in 2011), but in the hopes that it is, I posted &lt;a href="https://bitbucket.org/gobell/hg-zipdoc/issue/1/tidy-open-office-xml-files-before"&gt;an issue&lt;/a&gt; to the project's Bitbucket repository.&lt;/p&gt;
+
+&lt;p&gt;I'll try to keep this post updated as I learn more.&lt;/p&gt;
+</description><pubDate>Sat, 15 Feb 2014 08:00:00 Z</pubDate><a10:updated>2014-02-15T08:00:00Z</a10:updated><a10:content type="text">&lt;h1&gt;The problem&lt;/h1&gt;
+
+&lt;p&gt;I tend to work on small projects with small file-based databases (usually SQL Server Compact Edition). I find it very convenient to use Excel files to create the seed data for these small databases. I even have a little library that uses a combination of &lt;a href="http://epplus.codeplex.com/"&gt;EPPlus&lt;/a&gt;, Entity Framework Code First, and good ol' ADO.NET to basically convert any properly formatted Excel file into a SQL Server Compact database.&lt;/p&gt;
+
+&lt;p&gt;Given that these Excel files are part of a project and change over time, I like to keep them in source control (in my case, Mercurial). Unfortunately, given that Excel files are not simple text files, it's not easy for Mercurial to determine what has changed from version to version. This makes it basically impossible to visualize what has changed, and over time, it can bloat the repository because the deltas are not stored efficiently. I've always wondered if there was some way to do this better.&lt;/p&gt;
+
+&lt;h1&gt;The solution?&lt;/h1&gt;
+
+&lt;p&gt;After a little Googling, I came across the &lt;a href="http://mercurial.selenic.com/wiki/ZipdocExtension"&gt;Mercurial ZipDoc extension&lt;/a&gt; and downloaded it. After a little more Googling, I realized I didn't need to download it, since it was already included with TortoiseHg. ZipDoc is supposed to allow for more efficient delta compression when committing Open Office format files (such as docx and xlsx).&lt;/p&gt;
+
+&lt;h1&gt;The test&lt;/h1&gt;
+
+&lt;p&gt;After making the appropriate modifications to mercurial.ini file, I performed a small test with a sample Excel 2010 file. My file consisted of one worksheet with the following content:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;      |    A     B     C     D     E     F     G     H     I     J
+------------------------------------------------------------------
+  1   |    1     1     1     1     1     1     1     1     1     1
+  2   |    2     2     2     2     2     2     2     2     2     2
+...   |
+10000 | 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In other words, columns A to J of rows 1 to 10,000 were filled sequentially with numbers.&lt;/p&gt;
+
+&lt;p&gt;When I saved this file, its size on disk was 318 KB.&lt;/p&gt;
+
+&lt;p&gt;My test was very simple:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a repo with just the Excel file (Book1.xlsx) in it.&lt;/li&gt;
+&lt;li&gt;Commit.&lt;/li&gt;
+&lt;li&gt;Change the value of cell A1 to 10.&lt;/li&gt;
+&lt;li&gt;Commit changes.&lt;/li&gt;
+&lt;li&gt;Change the value of cell A1 back to 1.&lt;/li&gt;
+&lt;li&gt;Commit changes.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;After each commit, I noted the size of the .hg/store/data folder.&lt;/p&gt;
+
+&lt;h1&gt;The (dismal) results&lt;/h1&gt;
+
+&lt;p&gt;Here are the results:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                   ZipDoc      ZipDoc
+Commit Message    Enabled    Disabled
+-------------------------------------
+Initial commit     247 KB       32 KB
+Change A1 to 10    493 KB       59 KB
+Revert A1 to 1     738 KB       87 KB
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I was expecting ZipDoc to result in a larger initial data file size, which it certainly did, but I was not expecting it to increase so rapidly with only very minor changes to the Excel file. If fact, with ZipDoc enabled, the data file size grew at virtually the same percentage rate as with ZipDoc disabled (but starting at a much higher initial size).&lt;/p&gt;
+
+&lt;p&gt;This basically means that ZipDoc was not performing well at all, at least for my particular test case.&lt;/p&gt;
+
+&lt;h1&gt;The explanation&lt;/h1&gt;
+
+&lt;p&gt;For the Excel file in question, the structure of the zipped archive can be revealed by adding ".zip" to the name of the file and extracting the contents.&lt;/p&gt;
+
+&lt;p&gt;The result is this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;_rels
+    .rels
+docProps
+    app.xml
+    core.xml
+xl
+    _rels
+        workbook.xml.rels
+    theme
+        theme1.xml
+    worksheets
+        sheet1.xml
+    styles.xml
+    workbook.xml
+[Content_Types].xml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I used Mercurial to analyze what files actually changed between two different versions of the Excel file. The answer was just xl/worksheets/sheet1.xml.&lt;/p&gt;
+
+&lt;p&gt;Opening this file, the reason for the dismal performance of ZipDoc became instantly obvious: the entire file was contained on one line (it was essentially compressed or "minified", containing no unnecessary white space). Since Mercurial compares files based on which &lt;em&gt;lines&lt;/em&gt; have changed, it will always conclude that the entire file has changed. Hence, ZipDoc will never be able to do its job properly under these conditions.&lt;/p&gt;
+
+&lt;p&gt;When I actually formatted (prettified) sheet1.xml using Visual Studio's XML editor before committing it, Mercurial was able to find the one small difference between the two versions of the file, and it was able to store the delta very efficiently.&lt;/p&gt;
+
+&lt;h1&gt;The conclusion&lt;/h1&gt;
+
+&lt;p&gt;As long as Excel saves the component XML files as one-liners, ZipDoc won't be of any use, and will actually do more harm than good.&lt;/p&gt;
+
+&lt;p&gt;I'm not sure whether ZipDoc is being actively developed (the last update was in 2011), but in the hopes that it is, I posted &lt;a href="https://bitbucket.org/gobell/hg-zipdoc/issue/1/tidy-open-office-xml-files-before"&gt;an issue&lt;/a&gt; to the project's Bitbucket repository.&lt;/p&gt;
+
+&lt;p&gt;I'll try to keep this post updated as I learn more.&lt;/p&gt;
+</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2014/01/self-hosting-a-web-app-with-nancy/</guid><link>http://www.devuxer.com/2014/01/self-hosting-a-web-app-with-nancy/</link><title>Serving up a website from a console app using Nancy</title><description>&lt;p&gt;Have you ever wanted to build a desktop application that runs in a browser? As this post explains, &lt;a href="http://nancyfx.org/"&gt;Nancy&lt;/a&gt; makes it pretty darn easy--as long as you follow the right approach.&lt;/p&gt;
 
 &lt;h1&gt;Use case&lt;/h1&gt;
 
@@ -10,7 +192,7 @@
 
 &lt;h1&gt;This is almost awesome!&lt;/h1&gt;
 
-&lt;p&gt;The first thing I did was create a console app. Then I added the &lt;a href="https://www.nuget.org/packages/Nancy.Hosting.Self"&gt;Nancy.Hosting.Self&lt;/a&gt; NuGet package. Then, I added a module. So far, so good. Then I went to add a view, style sheet, and JavaScript file. That's when I got my first inkling that I was going a little against the grain. This being a console app, not a web project, the Add menu looked like this:&lt;/p&gt;
+&lt;p&gt;The first thing I did was create a console app. Then I added the &lt;a href="https://www.nuget.org/packages/Nancy.Hosting.Self"&gt;Nancy.Hosting.Self&lt;/a&gt; NuGet package. Then I added a module. So far, so good. Then I went to add a view, style sheet, and JavaScript file. That's when I got my first inkling that I was going a little against the grain. This being a console app, not a web project, the Add menu looked like this:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="/images/2014-01-13/AddMenuConsoleApp.png" alt="" /&gt;&lt;/p&gt;
 
@@ -24,7 +206,7 @@
 
 &lt;p&gt;It took a minute to sink in, but this was actually a big deal. I was viewing a web page in my browser, but there was no apparent web server running. No IIS, no IIS Express, no Cassini. Pretty sweet.&lt;/p&gt;
 
-&lt;p&gt;Then I attempted to edit a view. After saving the file, I reloaded the browser. Nothing changed. I checked to make sure Visual Studio was in Debug mode, not Release (since Release mode causes Nancy to cache pages), but that wasn't the problem. Then it dawned on me, since content can't be picked up unless it is copied to the appropriate bin folder, I needed to re-run the app.&lt;/p&gt;
+&lt;p&gt;Then, I attempted to edit a view. After saving the file, I reloaded the browser. Nothing changed. I checked to make sure Visual Studio was in Debug mode, not Release (since Release mode causes Nancy to cache pages), but that wasn't the problem. Then it dawned on me, since content can't be picked up unless it is copied to the appropriate bin folder, I needed to re-run the app.&lt;/p&gt;
 
 &lt;p&gt;That worked, but it was, again, not quite the usual workflow. Still, I reasoned, "I can live with this."&lt;/p&gt;
 
@@ -86,7 +268,7 @@
 
 &lt;h1&gt;This is almost awesome!&lt;/h1&gt;
 
-&lt;p&gt;The first thing I did was create a console app. Then I added the &lt;a href="https://www.nuget.org/packages/Nancy.Hosting.Self"&gt;Nancy.Hosting.Self&lt;/a&gt; NuGet package. Then, I added a module. So far, so good. Then I went to add a view, style sheet, and JavaScript file. That's when I got my first inkling that I was going a little against the grain. This being a console app, not a web project, the Add menu looked like this:&lt;/p&gt;
+&lt;p&gt;The first thing I did was create a console app. Then I added the &lt;a href="https://www.nuget.org/packages/Nancy.Hosting.Self"&gt;Nancy.Hosting.Self&lt;/a&gt; NuGet package. Then I added a module. So far, so good. Then I went to add a view, style sheet, and JavaScript file. That's when I got my first inkling that I was going a little against the grain. This being a console app, not a web project, the Add menu looked like this:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="http://www.devuxer.com/images/2014-01-13/AddMenuConsoleApp.png" alt="" /&gt;&lt;/p&gt;
 
@@ -100,7 +282,7 @@
 
 &lt;p&gt;It took a minute to sink in, but this was actually a big deal. I was viewing a web page in my browser, but there was no apparent web server running. No IIS, no IIS Express, no Cassini. Pretty sweet.&lt;/p&gt;
 
-&lt;p&gt;Then I attempted to edit a view. After saving the file, I reloaded the browser. Nothing changed. I checked to make sure Visual Studio was in Debug mode, not Release (since Release mode causes Nancy to cache pages), but that wasn't the problem. Then it dawned on me, since content can't be picked up unless it is copied to the appropriate bin folder, I needed to re-run the app.&lt;/p&gt;
+&lt;p&gt;Then, I attempted to edit a view. After saving the file, I reloaded the browser. Nothing changed. I checked to make sure Visual Studio was in Debug mode, not Release (since Release mode causes Nancy to cache pages), but that wasn't the problem. Then it dawned on me, since content can't be picked up unless it is copied to the appropriate bin folder, I needed to re-run the app.&lt;/p&gt;
 
 &lt;p&gt;That worked, but it was, again, not quite the usual workflow. Still, I reasoned, "I can live with this."&lt;/p&gt;
 

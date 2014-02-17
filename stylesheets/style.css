@@ -252,12 +252,12 @@ blockquote > :last-child
 hr
 {
     clear: both;
-    margin: 15px 0;
+    margin: 2em 0;
     height: 0;
     overflow: hidden;
     border: none;
     background: transparent;
-    border-bottom: 4px solid #ddd;
+    border-bottom: 2px solid #315F7F;
     padding: 0;
 }
 
