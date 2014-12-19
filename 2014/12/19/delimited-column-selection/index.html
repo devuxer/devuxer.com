@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta http-equiv="last-modified" content="2014-12-19T12:13:40.2967939-08:00" />
+        <title>devuxer</title>
+        <link rel="stylesheet" href="/stylesheets/prettify.css" />
+        <link rel="stylesheet" href="/stylesheets/style.css" />
+    </head>
+    <body>
+        <header role="banner">
+            <div id="header-main">
+                <ul id="follow-list">
+                    <li>
+                        <a href="https://twitter.com/devuxer" 
+                           onclick=" javascript:_gaq.push(['_trackEvent', 'outbound-widget', 'http://twitter.com']); ">
+                            <img src="/images/twitter.png">
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="http://stackoverflow.com/users/129164/devuxer" 
+                           onclick=" javascript:_gaq.push(['_trackEvent', 'outbound-widget', 'http://stackoverflow.com']); ">
+                            <img src="/images/stackoverflow.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/devuxer" 
+                           onclick=" javascript:_gaq.push(['_trackEvent', 'outbound-widget', 'http://github.com']); ">
+                            <img src="/images/github.png">
+                        </a>
+                    </li>
+                </ul>
+                <p id="blog-title"><a href="/" title="devuxer" rel="home">devuxer</a></p>
+                <p id="blog-title-explanation">[developer + user experience designer = devuxer]</p>
+                <p id="blog-description">Designing and developing software that makes life better for people</p>
+                <nav role="navigation">
+                    <ul id="navigation-list">
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/category">Categories</a></li>
+                        <li><a href="/archive">Archive</a></li>
+                        <li><a href="/recommended">Recommended</a></li>
+                        <li><a href="/feed">RSS/Feed</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="content" role="main">
+            <div id="content-main">
+
+<article>
+    <p>
+        <span>Categories:</span>
+            <a href="/category/code-editing">Code Editing</a>
+                |
+            <a href="/category/user-experience">User Experience</a>
+    </p>
+
+    <p class="post-date">19 December 2014</p>
+    <p class="post-title">Delimited column selection</p>
+    
+    <p>It recently occurred to me that column selection is nice, but it could be awesome.</p>
+
+<p>Here is what I mean by column selection:</p>
+
+<p><img src="/images/2014-12-19/regular-column-selection.png" alt="Regular column selection" /></p>
+
+<p>In most GUI editors, you perform this type of selection by alt-dragging the mouse down and to the right.</p>
+
+<p>If all you wanted to do was add <code>virtual</code> after each <code>public</code>, this would be very useful.</p>
+
+<p>But what if you wanted to strip away <code>public</code> plus the data type? For this, you would want the selection to go word-by-word instead of character-by-character as you alt-drag the mouse to the right.</p>
+
+<p>To illustrate this concept, I created an animated GIF. (In case your curious how, I used PowerPoint to create the slides, saved them as PNG, imported them as layers into Paint .NET, and saved out the image as an AGIF using the <a href="http://forums.getpaint.net/index.php?/topic/13454-animated-image-24-agif-apng/">Animated Image plugin</a>.)</p>
+
+<p><img src="/images/2014-12-19/delimited-column-selection.gif" alt="Delimited column selection - animated" /></p>
+
+<p>I see this feature being useful for any situation where you have a bunch of similar declarations and you want to strip away something from each line or insert something new between the same two words of each line.</p>
+
+<p>While writing this post, I began to wonder if delimited column selection already exists. I was thinking <a href="http://www.sublimetext.com/">Sublime Text</a> might have it, but I wasn't able to find it during my brief test drive. The default Visual Studio editors don't seem to have anything beyond standard column selection, but I did come across the <a href="https://visualstudiogallery.msdn.microsoft.com/2beb9705-b568-45d1-8550-751e181e3aef">MultiEditing extension</a>, which 
+Scott Hanselman <a href="http://www.hanselman.com/blog/SimultaneousEditingForVisualStudioWithTheFreeMultiEditExtension.aspx">blogged about</a> in 2013. While it sounds quite useful (I think I'll install it), it wouldn't be quite as easy for the use cases I have in mind.</p>
+
+<p>Anyway, if you'd like to see delimited column selection in Visual Studio, I just posted the idea to <a href="https://visualstudio.uservoice.com/forums/121579-visual-studio/suggestions/6863802-make-code-editors-more-awesome-with-delimited-colu">Visual Studio User Voice</a>.</p>
+
+    
+    <!-- AddThis Button BEGIN -->
+    
+    <div class="addthis_toolbox addthis_default_style ">
+        <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+        <a class="addthis_button_tweet"></a>
+        <a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal"></a>
+        <a class="addthis_counter addthis_pill_style"></a>
+    </div>
+    
+    <script type="text/javascript"> var addthis_config = { "data_track_addressbar": true }; </script>
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52af4cfd284f7c10"></script>
+    <!-- AddThis Button END -->
+
+    <div id="disqus_thread"></div>
+<script>
+    var reset_disqus = function(){
+        DISQUS.reset({
+            reload: true,
+            config: function () {
+                //this.page.identifier = '';
+                this.page.url = 'http://www.devuxer.com/2014/12/19/delimited-column-selection/';
+                //this.page.title = '';
+            }
+        });
+    };
+
+    var disqus_shortname = 'devuxer';
+    var disqus_url = 'http://www.devuxer.com/2014/12/19/delimited-column-selection/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    window.addEventListener('orientationchange', reset_disqus);
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article></div>
+        </div>
+        <footer role="contentinfo">
+            <div id="footer-main">Powered by <a href="https://github.com/Sandra/Sandra.Snow" rel="generator">Sandra.Snow</a></div>
+        </footer>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="/javascripts/prettify.js"></script>
+        <script src="/javascripts/prettyPrint.js"></script>
+        <script src="/javascripts/googleAnalyticsHelper.js"></script>
+        <script type="text/javascript">
+var _gaq = _gaq || [];
+
+_gaq.push(['_setAccount', 'UA-46486876-1']);
+_gaq.push(['_trackPageview']);
+        
+(function () {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+})();
+</script>
+    </body>
+</html>

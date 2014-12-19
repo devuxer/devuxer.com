@@ -1,4 +1,48 @@
-<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0"><channel><title /><link>http://www.devuxer.com/feed.xml</link><description /><item><guid isPermaLink="true">http://www.devuxer.com/2014/02/why-the-mercurial-zipdoc-extension-fails-for-excel-files/</guid><link>http://www.devuxer.com/2014/02/why-the-mercurial-zipdoc-extension-fails-for-excel-files/</link><title>Why Mercurial ZipDoc Extension Fails For Excel Files</title><description>&lt;h1&gt;The problem&lt;/h1&gt;
+<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0"><channel><title>devuxer</title><link>http://www.devuxer.com/feed.xml</link><description>devuxer</description><item><guid isPermaLink="true">http://www.devuxer.com/2014/12/19/delimited-column-selection/</guid><link>http://www.devuxer.com/2014/12/19/delimited-column-selection/</link><author>danm@devuxer.com</author><category>Code Editing</category><category>User Experience</category><title>Delimited column selection</title><description>&lt;p&gt;It recently occurred to me that column selection is nice, but it could be awesome.&lt;/p&gt;
+
+&lt;p&gt;Here is what I mean by column selection:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://www.devuxer.com/images/2014-12-19/regular-column-selection.png" alt="Regular column selection" /&gt;&lt;/p&gt;
+
+&lt;p&gt;In most GUI editors, you perform this type of selection by alt-dragging the mouse down and to the right.&lt;/p&gt;
+
+&lt;p&gt;If all you wanted to do was add &lt;code&gt;virtual&lt;/code&gt; after each &lt;code&gt;public&lt;/code&gt;, this would be very useful.&lt;/p&gt;
+
+&lt;p&gt;But what if you wanted to strip away &lt;code&gt;public&lt;/code&gt; plus the data type? For this, you would want the selection to go word-by-word instead of character-by-character as you alt-drag the mouse to the right.&lt;/p&gt;
+
+&lt;p&gt;To illustrate this concept, I created an animated GIF. (In case your curious how, I used PowerPoint to create the slides, saved them as PNG, imported them as layers into Paint .NET, and saved out the image as an AGIF using the &lt;a href="http://forums.getpaint.net/index.php?/topic/13454-animated-image-24-agif-apng/"&gt;Animated Image plugin&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://www.devuxer.com/images/2014-12-19/delimited-column-selection.gif" alt="Delimited column selection - animated" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I see this feature being useful for any situation where you have a bunch of similar declarations and you want to strip away something from each line or insert something new between the same two words of each line.&lt;/p&gt;
+
+&lt;p&gt;While writing this post, I began to wonder if delimited column selection already exists. I was thinking &lt;a href="http://www.sublimetext.com/"&gt;Sublime Text&lt;/a&gt; might have it, but I wasn't able to find it during my brief test drive. The default Visual Studio editors don't seem to have anything beyond standard column selection, but I did come across the &lt;a href="https://visualstudiogallery.msdn.microsoft.com/2beb9705-b568-45d1-8550-751e181e3aef"&gt;MultiEditing extension&lt;/a&gt;, which 
+Scott Hanselman &lt;a href="http://www.hanselman.com/blog/SimultaneousEditingForVisualStudioWithTheFreeMultiEditExtension.aspx"&gt;blogged about&lt;/a&gt; in 2013. While it sounds quite useful (I think I'll install it), it wouldn't be quite as easy for the use cases I have in mind.&lt;/p&gt;
+
+&lt;p&gt;Anyway, if you'd like to see delimited column selection in Visual Studio, I just posted the idea to &lt;a href="https://visualstudio.uservoice.com/forums/121579-visual-studio/suggestions/6863802-make-code-editors-more-awesome-with-delimited-colu"&gt;Visual Studio User Voice&lt;/a&gt;.&lt;/p&gt;
+</description><pubDate>Fri, 19 Dec 2014 08:00:00 Z</pubDate><a10:updated>2014-12-19T08:00:00Z</a10:updated><a10:content type="html">&lt;p&gt;It recently occurred to me that column selection is nice, but it could be awesome.&lt;/p&gt;
+
+&lt;p&gt;Here is what I mean by column selection:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://www.devuxer.com/images/2014-12-19/regular-column-selection.png" alt="Regular column selection" /&gt;&lt;/p&gt;
+
+&lt;p&gt;In most GUI editors, you perform this type of selection by alt-dragging the mouse down and to the right.&lt;/p&gt;
+
+&lt;p&gt;If all you wanted to do was add &lt;code&gt;virtual&lt;/code&gt; after each &lt;code&gt;public&lt;/code&gt;, this would be very useful.&lt;/p&gt;
+
+&lt;p&gt;But what if you wanted to strip away &lt;code&gt;public&lt;/code&gt; plus the data type? For this, you would want the selection to go word-by-word instead of character-by-character as you alt-drag the mouse to the right.&lt;/p&gt;
+
+&lt;p&gt;To illustrate this concept, I created an animated GIF. (In case your curious how, I used PowerPoint to create the slides, saved them as PNG, imported them as layers into Paint .NET, and saved out the image as an AGIF using the &lt;a href="http://forums.getpaint.net/index.php?/topic/13454-animated-image-24-agif-apng/"&gt;Animated Image plugin&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://www.devuxer.com/images/2014-12-19/delimited-column-selection.gif" alt="Delimited column selection - animated" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I see this feature being useful for any situation where you have a bunch of similar declarations and you want to strip away something from each line or insert something new between the same two words of each line.&lt;/p&gt;
+
+&lt;p&gt;While writing this post, I began to wonder if delimited column selection already exists. I was thinking &lt;a href="http://www.sublimetext.com/"&gt;Sublime Text&lt;/a&gt; might have it, but I wasn't able to find it during my brief test drive. The default Visual Studio editors don't seem to have anything beyond standard column selection, but I did come across the &lt;a href="https://visualstudiogallery.msdn.microsoft.com/2beb9705-b568-45d1-8550-751e181e3aef"&gt;MultiEditing extension&lt;/a&gt;, which 
+Scott Hanselman &lt;a href="http://www.hanselman.com/blog/SimultaneousEditingForVisualStudioWithTheFreeMultiEditExtension.aspx"&gt;blogged about&lt;/a&gt; in 2013. While it sounds quite useful (I think I'll install it), it wouldn't be quite as easy for the use cases I have in mind.&lt;/p&gt;
+
+&lt;p&gt;Anyway, if you'd like to see delimited column selection in Visual Studio, I just posted the idea to &lt;a href="https://visualstudio.uservoice.com/forums/121579-visual-studio/suggestions/6863802-make-code-editors-more-awesome-with-delimited-colu"&gt;Visual Studio User Voice&lt;/a&gt;.&lt;/p&gt;
+</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2014/02/15/why-the-mercurial-zipdoc-extension-fails-for-excel-files/</guid><link>http://www.devuxer.com/2014/02/15/why-the-mercurial-zipdoc-extension-fails-for-excel-files/</link><author>danm@devuxer.com</author><category>Excel</category><category>Mercurial</category><category>TortoiseHg</category><category>ZipDoc</category><title>Why The Mercurial ZipDoc Extension Fails For Excel Files</title><description>&lt;h1&gt;The problem&lt;/h1&gt;
 
 &lt;p&gt;I tend to work on small projects with small file-based databases (usually SQL Server Compact Edition). I find it very convenient to use Excel files to create the seed data for these small databases. I even have a little library that uses a combination of &lt;a href="http://epplus.codeplex.com/"&gt;EPPlus&lt;/a&gt;, Entity Framework Code First, and good ol' ADO.NET to basically convert any properly formatted Excel file into a SQL Server Compact database.&lt;/p&gt;
 
@@ -89,7 +133,7 @@ xl
 &lt;p&gt;I'm not sure whether ZipDoc is being actively developed (the last update was in 2011), but in the hopes that it is, I posted &lt;a href="https://bitbucket.org/gobell/hg-zipdoc/issue/1/tidy-open-office-xml-files-before"&gt;an issue&lt;/a&gt; to the project's Bitbucket repository.&lt;/p&gt;
 
 &lt;p&gt;I'll try to keep this post updated as I learn more.&lt;/p&gt;
-</description><pubDate>Sat, 15 Feb 2014 08:00:00 Z</pubDate><a10:updated>2014-02-15T08:00:00Z</a10:updated><a10:content type="text">&lt;h1&gt;The problem&lt;/h1&gt;
+</description><pubDate>Sat, 15 Feb 2014 08:00:00 Z</pubDate><a10:updated>2014-02-15T08:00:00Z</a10:updated><a10:content type="html">&lt;h1&gt;The problem&lt;/h1&gt;
 
 &lt;p&gt;I tend to work on small projects with small file-based databases (usually SQL Server Compact Edition). I find it very convenient to use Excel files to create the seed data for these small databases. I even have a little library that uses a combination of &lt;a href="http://epplus.codeplex.com/"&gt;EPPlus&lt;/a&gt;, Entity Framework Code First, and good ol' ADO.NET to basically convert any properly formatted Excel file into a SQL Server Compact database.&lt;/p&gt;
 
@@ -180,7 +224,7 @@ xl
 &lt;p&gt;I'm not sure whether ZipDoc is being actively developed (the last update was in 2011), but in the hopes that it is, I posted &lt;a href="https://bitbucket.org/gobell/hg-zipdoc/issue/1/tidy-open-office-xml-files-before"&gt;an issue&lt;/a&gt; to the project's Bitbucket repository.&lt;/p&gt;
 
 &lt;p&gt;I'll try to keep this post updated as I learn more.&lt;/p&gt;
-</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2014/01/self-hosting-a-web-app-with-nancy/</guid><link>http://www.devuxer.com/2014/01/self-hosting-a-web-app-with-nancy/</link><title>Serving up a website from a console app using Nancy</title><description>&lt;p&gt;Have you ever wanted to build a desktop application that runs in a browser? As this post explains, &lt;a href="http://nancyfx.org/"&gt;Nancy&lt;/a&gt; makes it pretty darn easy--as long as you follow the right approach.&lt;/p&gt;
+</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2014/01/13/self-hosting-a-web-app-with-nancy/</guid><link>http://www.devuxer.com/2014/01/13/self-hosting-a-web-app-with-nancy/</link><author>danm@devuxer.com</author><category>Nancy</category><category>Web Applications</category><title>Serving up a website from a console app using Nancy</title><description>&lt;p&gt;Have you ever wanted to build a desktop application that runs in a browser? As this post explains, &lt;a href="http://nancyfx.org/"&gt;Nancy&lt;/a&gt; makes it pretty darn easy--as long as you follow the right approach.&lt;/p&gt;
 
 &lt;h1&gt;Use case&lt;/h1&gt;
 
@@ -194,11 +238,11 @@ xl
 
 &lt;p&gt;The first thing I did was create a console app. Then I added the &lt;a href="https://www.nuget.org/packages/Nancy.Hosting.Self"&gt;Nancy.Hosting.Self&lt;/a&gt; NuGet package. Then I added a module. So far, so good. Then I went to add a view, style sheet, and JavaScript file. That's when I got my first inkling that I was going a little against the grain. This being a console app, not a web project, the Add menu looked like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="/images/2014-01-13/AddMenuConsoleApp.png" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://www.devuxer.com/images/2014-01-13/add-menu-console-app.png" alt="" /&gt;&lt;/p&gt;
 
 &lt;p&gt;Instead of like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="/images/2014-01-13/AddMenuWebApp.png" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://www.devuxer.com/images/2014-01-13/add-menu-web-app.png" alt="" /&gt;&lt;/p&gt;
 
 &lt;p&gt;Of course, all these files could still be added, I just had to go into the Add Dialog to conjure them up. So, that's what I did. Not a big deal.&lt;/p&gt;
 
@@ -256,7 +300,7 @@ xl
 &lt;h1&gt;tl;dr;&lt;/h1&gt;
 
 &lt;p&gt;If you want to build a web application for individual use, and you want it to be portable and as easy to run as any desktop app, use a Nancy self hosted console app for deployment, but do your web development and debugging with an ASP.NET-hosted Nancy web app. It's barely any extra work to set up this way, and it will ensure all your web development tools work as designed.&lt;/p&gt;
-</description><pubDate>Mon, 13 Jan 2014 08:00:00 Z</pubDate><a10:updated>2014-01-13T08:00:00Z</a10:updated><a10:content type="text">&lt;p&gt;Have you ever wanted to build a desktop application that runs in a browser? As this post explains, &lt;a href="http://nancyfx.org/"&gt;Nancy&lt;/a&gt; makes it pretty darn easy--as long as you follow the right approach.&lt;/p&gt;
+</description><pubDate>Mon, 13 Jan 2014 08:00:00 Z</pubDate><a10:updated>2014-01-13T08:00:00Z</a10:updated><a10:content type="html">&lt;p&gt;Have you ever wanted to build a desktop application that runs in a browser? As this post explains, &lt;a href="http://nancyfx.org/"&gt;Nancy&lt;/a&gt; makes it pretty darn easy--as long as you follow the right approach.&lt;/p&gt;
 
 &lt;h1&gt;Use case&lt;/h1&gt;
 
@@ -270,11 +314,11 @@ xl
 
 &lt;p&gt;The first thing I did was create a console app. Then I added the &lt;a href="https://www.nuget.org/packages/Nancy.Hosting.Self"&gt;Nancy.Hosting.Self&lt;/a&gt; NuGet package. Then I added a module. So far, so good. Then I went to add a view, style sheet, and JavaScript file. That's when I got my first inkling that I was going a little against the grain. This being a console app, not a web project, the Add menu looked like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://www.devuxer.com/images/2014-01-13/AddMenuConsoleApp.png" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://www.devuxer.com/images/2014-01-13/add-menu-console-app.png" alt="" /&gt;&lt;/p&gt;
 
 &lt;p&gt;Instead of like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://www.devuxer.com/images/2014-01-13/AddMenuWebApp.png" alt="" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://www.devuxer.com/images/2014-01-13/add-menu-web-app.png" alt="" /&gt;&lt;/p&gt;
 
 &lt;p&gt;Of course, all these files could still be added, I just had to go into the Add Dialog to conjure them up. So, that's what I did. Not a big deal.&lt;/p&gt;
 
@@ -332,7 +376,7 @@ xl
 &lt;h1&gt;tl;dr;&lt;/h1&gt;
 
 &lt;p&gt;If you want to build a web application for individual use, and you want it to be portable and as easy to run as any desktop app, use a Nancy self hosted console app for deployment, but do your web development and debugging with an ASP.NET-hosted Nancy web app. It's barely any extra work to set up this way, and it will ensure all your web development tools work as designed.&lt;/p&gt;
-</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2013/12/starting-a-blog/</guid><link>http://www.devuxer.com/2013/12/starting-a-blog/</link><title>Powered by Sandra Snow</title><description>&lt;p&gt;Welcome to my new blog. I've wanted to have a blog for a while, but I hesitated because I thought it would take a lot of effort to get started.&lt;/p&gt;
+</a10:content></item><item><guid isPermaLink="true">http://www.devuxer.com/2013/12/15/starting-a-blog/</guid><link>http://www.devuxer.com/2013/12/15/starting-a-blog/</link><author>danm@devuxer.com</author><category>Blogging</category><category>Sandra Snow</category><title>Powered by Sandra Snow</title><description>&lt;p&gt;Welcome to my new blog. I've wanted to have a blog for a while, but I hesitated because I thought it would take a lot of effort to get started.&lt;/p&gt;
 
 &lt;p&gt;Now that I've done it, I can say, yep, it really was a pain!&lt;/p&gt;
 
@@ -476,7 +520,7 @@ xl
 &lt;h1&gt;Conclusion&lt;/h1&gt;
 
 &lt;p&gt;If you want a blog that's truly your own, it's going to take some work to set up. If your situation is similar to mine, hopefully, I've at least spared you some of the struggle. Regardless, once you get over the hump of setting things up, it should be smooth sailing. At least, that's the idea.&lt;/p&gt;
-</description><pubDate>Sun, 15 Dec 2013 08:00:00 Z</pubDate><a10:updated>2013-12-15T08:00:00Z</a10:updated><a10:content type="text">&lt;p&gt;Welcome to my new blog. I've wanted to have a blog for a while, but I hesitated because I thought it would take a lot of effort to get started.&lt;/p&gt;
+</description><pubDate>Sun, 15 Dec 2013 08:00:00 Z</pubDate><a10:updated>2013-12-15T08:00:00Z</a10:updated><a10:content type="html">&lt;p&gt;Welcome to my new blog. I've wanted to have a blog for a while, but I hesitated because I thought it would take a lot of effort to get started.&lt;/p&gt;
 
 &lt;p&gt;Now that I've done it, I can say, yep, it really was a pain!&lt;/p&gt;
 

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
-        <meta http-equiv="last-modified" content="2014-02-17T11:47:10.3472668-08:00" />
+        <meta http-equiv="last-modified" content="2014-12-19T12:13:40.2967939-08:00" />
         <title>devuxer</title>
         <link rel="stylesheet" href="/stylesheets/prettify.css" />
         <link rel="stylesheet" href="/stylesheets/style.css" />
@@ -51,8 +51,38 @@
 
 <ul id="posts">
         <li>
+            <p class="post-date">19 December 2014</p>
+            <p class="post-title"><a href="/2014/12/19/delimited-column-selection/">Delimited column selection</a></p>
+            
+            <p>It recently occurred to me that column selection is nice, but it could be awesome.</p>
+
+<p>Here is what I mean by column selection:</p>
+
+<p><img src="/images/2014-12-19/regular-column-selection.png" alt="Regular column selection" /></p>
+
+<p>In most GUI editors, you perform this type of selection by alt-dragging the mouse down and to the right.</p>
+
+<p>If all you wanted to do was add <code>virtual</code> after each <code>public</code>, this would be very useful.</p>
+
+<p>But what if you wanted to strip away <code>public</code> plus the data type? For this, you would want the selection to go word-by-word instead of character-by-character as you alt-drag the mouse to the right.</p>
+
+<p>To illustrate this concept, I created an animated GIF. (In case your curious how, I used PowerPoint to create the slides, saved them as PNG, imported them as layers into Paint .NET, and saved out the image as an AGIF using the <a href="http://forums.getpaint.net/index.php?/topic/13454-animated-image-24-agif-apng/">Animated Image plugin</a>.)</p>
+
+<p><img src="/images/2014-12-19/delimited-column-selection.gif" alt="Delimited column selection - animated" /></p>
+
+<p>I see this feature being useful for any situation where you have a bunch of similar declarations and you want to strip away something from each line or insert something new between the same two words of each line.</p>
+
+<p>While writing this post, I began to wonder if delimited column selection already exists. I was thinking <a href="http://www.sublimetext.com/">Sublime Text</a> might have it, but I wasn't able to find it during my brief test drive. The default Visual Studio editors don't seem to have anything beyond standard column selection, but I did come across the <a href="https://visualstudiogallery.msdn.microsoft.com/2beb9705-b568-45d1-8550-751e181e3aef">MultiEditing extension</a>, which 
+Scott Hanselman <a href="http://www.hanselman.com/blog/SimultaneousEditingForVisualStudioWithTheFreeMultiEditExtension.aspx">blogged about</a> in 2013. While it sounds quite useful (I think I'll install it), it wouldn't be quite as easy for the use cases I have in mind.</p>
+
+<p>Anyway, if you'd like to see delimited column selection in Visual Studio, I just posted the idea to <a href="https://visualstudio.uservoice.com/forums/121579-visual-studio/suggestions/6863802-make-code-editors-more-awesome-with-delimited-colu">Visual Studio User Voice</a>.</p>
+
+            <p><a href="/2014/12/19/delimited-column-selection/">Read more...</a></p>
+                <hr />
+        </li>
+        <li>
             <p class="post-date">15 February 2014</p>
-            <p class="post-title"><a href="/2014/02/why-the-mercurial-zipdoc-extension-fails-for-excel-files/">Why Mercurial ZipDoc Extension Fails For Excel Files</a></p>
+            <p class="post-title"><a href="/2014/02/15/why-the-mercurial-zipdoc-extension-fails-for-excel-files/">Why The Mercurial ZipDoc Extension Fails For Excel Files</a></p>
             
             <h1>The problem</h1>
 
@@ -146,12 +176,12 @@ xl
 
 <p>I'll try to keep this post updated as I learn more.</p>
 
-            <p><a href="/2014/02/why-the-mercurial-zipdoc-extension-fails-for-excel-files/">Read more...</a></p>
+            <p><a href="/2014/02/15/why-the-mercurial-zipdoc-extension-fails-for-excel-files/">Read more...</a></p>
                 <hr />
         </li>
         <li>
             <p class="post-date">13 January 2014</p>
-            <p class="post-title"><a href="/2014/01/self-hosting-a-web-app-with-nancy/">Serving up a website from a console app using Nancy</a></p>
+            <p class="post-title"><a href="/2014/01/13/self-hosting-a-web-app-with-nancy/">Serving up a website from a console app using Nancy</a></p>
             
             <p>Have you ever wanted to build a desktop application that runs in a browser? As this post explains, <a href="http://nancyfx.org/">Nancy</a> makes it pretty darn easy--as long as you follow the right approach.</p>
 
@@ -167,11 +197,11 @@ xl
 
 <p>The first thing I did was create a console app. Then I added the <a href="https://www.nuget.org/packages/Nancy.Hosting.Self">Nancy.Hosting.Self</a> NuGet package. Then I added a module. So far, so good. Then I went to add a view, style sheet, and JavaScript file. That's when I got my first inkling that I was going a little against the grain. This being a console app, not a web project, the Add menu looked like this:</p>
 
-<p><img src="/images/2014-01-13/AddMenuConsoleApp.png" alt="" /></p>
+<p><img src="/images/2014-01-13/add-menu-console-app.png" alt="" /></p>
 
 <p>Instead of like this:</p>
 
-<p><img src="/images/2014-01-13/AddMenuWebApp.png" alt="" /></p>
+<p><img src="/images/2014-01-13/add-menu-web-app.png" alt="" /></p>
 
 <p>Of course, all these files could still be added, I just had to go into the Add Dialog to conjure them up. So, that's what I did. Not a big deal.</p>
 
@@ -230,12 +260,12 @@ xl
 
 <p>If you want to build a web application for individual use, and you want it to be portable and as easy to run as any desktop app, use a Nancy self hosted console app for deployment, but do your web development and debugging with an ASP.NET-hosted Nancy web app. It's barely any extra work to set up this way, and it will ensure all your web development tools work as designed.</p>
 
-            <p><a href="/2014/01/self-hosting-a-web-app-with-nancy/">Read more...</a></p>
+            <p><a href="/2014/01/13/self-hosting-a-web-app-with-nancy/">Read more...</a></p>
                 <hr />
         </li>
         <li>
             <p class="post-date">15 December 2013</p>
-            <p class="post-title"><a href="/2013/12/starting-a-blog/">Powered by Sandra Snow</a></p>
+            <p class="post-title"><a href="/2013/12/15/starting-a-blog/">Powered by Sandra Snow</a></p>
             
             <p>Welcome to my new blog. I've wanted to have a blog for a while, but I hesitated because I thought it would take a lot of effort to get started.</p>
 
@@ -382,7 +412,7 @@ xl
 
 <p>If you want a blog that's truly your own, it's going to take some work to set up. If your situation is similar to mine, hopefully, I've at least spared you some of the struggle. Regardless, once you get over the hump of setting things up, it should be smooth sailing. At least, that's the idea.</p>
 
-            <p><a href="/2013/12/starting-a-blog/">Read more...</a></p>
+            <p><a href="/2013/12/15/starting-a-blog/">Read more...</a></p>
         </li>
 </ul>
 
